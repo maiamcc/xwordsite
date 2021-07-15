@@ -1,0 +1,191 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+$color-windmill: #315D46;
+
+.singlespaced p{
+  margin: 0;
+}
+
+.caption {
+  text-align: center;
+  font-size: 77%;
+  font-style: italic;
+}
+
+$border-ep: #E0E0E0;
+html {
+     background: image-url('background.png') repeat-x scroll center top $page-bg;
+  }
+
+  #main
+  {
+  border-left: 1px solid $border-ep;
+  border-right: 1px solid $border-ep;
+  border-bottom: 1px solid $border-ep;
+  }
+
+
+  body > footer
+  {
+    background: $page-bg;
+  }
+
+  body > nav {
+    border-top:0px solid #fff;
+    border-bottom:0px solid #fff;
+    padding-top:4px;
+    padding-bottom:3px;
+    background: transparent;
+
+    ul {
+        padding-top:0px;
+    }
+
+    a {
+      @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
+      text-shadow: 2px 2px 2px  #0F3B6A;
+      color:#fff;
+      float: left;
+      text-decoration: none;
+      font-size: 1.1em;
+      padding: .1em 0;
+      line-height: 1.5em;
+    }
+
+    li + li {
+      border-left: 0px solid $nav-border-left;
+      margin-left: .8em;
+      a {
+        padding-left: .8em;
+        border-left: 0px solid $nav-border-right;
+      }
+    }
+    form{
+        .search {
+          @include box-shadow(0px);
+        }
+    }
+
+  }
+
+  .blue_dark {
+      color: #5AA6F1;
+      text-shadow: 2px 2px 2px  #0F3B6A;
+      font-size:20px;
+  }
+  .blue_light {
+      text-shadow: 2px 2px 2px  #0F3B6A;
+      color: #A6CCFB;
+      font-size:20px;
+  }
+
+  .gist-highlight {
+      margin-bottom:0;
+  }
+
+  body {
+     > div {
+       border-bottom: 0px solid $page-border-bottom;
+       }
+  }
+
+  .project {
+    margin-bottom: 1.5em;
+    .heading {
+      margin-bottom: 0;
+    }
+    @media only screen and (min-width: 480px) {
+      .heading{
+        display: inline-block;
+      }
+      h3 {
+        width: 50%;
+      }
+      h4 {
+        width: 50%;
+        text-align: right;
+      }
+    }
+    p {
+      margin-bottom: 0.2em;
+    }
+  }
+
+  .windmill {
+    color: $color-windmill !important;
+    font-weight: bold;
+  }
+
+
+// RSS and Search
+@mixin mask-subscription-nav($feed: 'rss.png'){
+  position: relative; top: 0px;
+  text-indent: -999999em;
+  background-color: $nav-border-right;
+  border: 0;
+  padding: 0;
+  &,&:after { @include mask-image($feed); }
+  &:after {
+    content: "";
+    position: absolute; top: -1px; left: 0;
+    background-color: lighten($nav-color, 25);
+  }
+  &:hover:after { background-color: lighten($nav-color, 20); }
+
+}
+.maskImage {
+  nav {
+    @media only screen and (min-width: 550px) {
+      ul[data-subscription$=email] + form {
+        width: $sidebar-width-medium - $pad-medium*2 - $sidebar-pad-medium - 32px;
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      ul[data-subscription$=email] + form {
+        width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 32px;
+      }
+    }
+  }
+  ul.subscription { display: none; position: relative; top: .2em; li, a { border: 0; padding: 0; }}
+  a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
+  a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
+}
+
+form {
+    @include background-clip(padding-box);
+    margin: 0; padding: 0;
+    .search {
+      padding: .3em .5em 0;
+      margin: .2em 0 0 0;
+      font-size: .85em;
+      font-family: $sans;
+      line-height: 1.1em;
+      width: 95%;
+      @include border-radius(.5em);
+      @include background-clip(padding-box);
+      @include box-shadow(lighten($nav-bg, 2) 0 1px);
+      background-color: lighten($nav-bg, 15);
+      border: 1px solid $nav-border;
+      color: #888;
+      &:focus {
+        color: #444;
+        border-color: #80b1df;
+        @include box-shadow(#80b1df 0 0 4px, #80b1df 0 0 3px inset);
+        background-color: #fff;
+        outline: none;
+      }
+    }
+  }
+
+.red {
+  background-color: #FF0000;
+}
+
+.green {
+  background-color: #00FF00;
+}
+
+.cyan {
+  background-color: #00FFFF;
+}

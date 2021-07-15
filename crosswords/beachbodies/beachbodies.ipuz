@@ -1,0 +1,486 @@
+{
+  "copyright": "© Maia McCormick, 2021",
+  "solution": [
+    [
+      "T",
+      "H",
+      "U",
+      "N",
+      "D",
+      "E",
+      "R",
+      "#",
+      "I",
+      "S",
+      "H"
+    ],
+    [
+      "H",
+      "A",
+      "V",
+      "E",
+      "O",
+      "N",
+      "E",
+      "#",
+      "D",
+      "I",
+      "E"
+    ],
+    [
+      "I",
+      "M",
+      "A",
+      "G",
+      "I",
+      "R",
+      "L",
+      "#",
+      "E",
+      "R",
+      "R"
+    ],
+    [
+      "G",
+      "F",
+      "S",
+      "#",
+      "N",
+      "O",
+      "I",
+      "S",
+      "A",
+      "I",
+      "D"
+    ],
+    [
+      "H",
+      "A",
+      "N",
+      "G",
+      "#",
+      "N",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "R",
+      "K",
+      "#",
+      "K",
+      "E",
+      "B",
+      "A",
+      "B"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "E",
+      "C",
+      "#",
+      "D",
+      "E",
+      "M",
+      "I"
+    ],
+    [
+      "N",
+      "S",
+      "F",
+      "W",
+      "P",
+      "I",
+      "C",
+      "#",
+      "L",
+      "E",
+      "G"
+    ],
+    [
+      "I",
+      "P",
+      "O",
+      "#",
+      "T",
+      "R",
+      "A",
+      "L",
+      "A",
+      "L",
+      "A"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "#",
+      "A",
+      "R",
+      "T",
+      "E",
+      "M",
+      "I",
+      "S"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "#",
+      "T",
+      "I",
+      "T",
+      "T",
+      "I",
+      "E",
+      "S"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      "#",
+      8,
+      9,
+      10
+    ],
+    [
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      12,
+      0,
+      0
+    ],
+    [
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      14,
+      0,
+      0
+    ],
+    [
+      15,
+      0,
+      0,
+      "#",
+      16,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      0,
+      0,
+      19,
+      "#",
+      20,
+      0,
+      0,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      21,
+      0,
+      0,
+      0,
+      22,
+      "#",
+      23,
+      0,
+      24,
+      25,
+      26
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      27,
+      0,
+      28,
+      "#",
+      29,
+      0,
+      0,
+      0
+    ],
+    [
+      30,
+      31,
+      32,
+      0,
+      0,
+      0,
+      33,
+      "#",
+      34,
+      0,
+      0
+    ],
+    [
+      35,
+      0,
+      0,
+      "#",
+      36,
+      0,
+      0,
+      37,
+      0,
+      0,
+      0
+    ],
+    [
+      38,
+      0,
+      0,
+      "#",
+      39,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      40,
+      0,
+      0,
+      "#",
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "All Bodies Are Beach Bodies",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 11,
+    "height": 11
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "See 1-across"
+      ],
+      [
+        2,
+        "Once rendered, cracklings"
+      ],
+      [
+        3,
+        "70s grape strike slogan"
+      ],
+      [
+        4,
+        "Flirt like a pick-up artist, maybe"
+      ],
+      [
+        5,
+        "Part of a Joey catchphrase"
+      ],
+      [
+        6,
+        "Crooked corporation of the early 2000s"
+      ],
+      [
+        7,
+        "Connect again"
+      ],
+      [
+        8,
+        "Pictorally, a lightbulb"
+      ],
+      [
+        9,
+        "Digital assistant"
+      ],
+      [
+        10,
+        "\"Baby don't ___ me!\" (\"What Is Love?\" lyric as sung by a sheep, maybe.)"
+      ],
+      [
+        17,
+        "Preliminary tournament ranking"
+      ],
+      [
+        19,
+        "Waxed"
+      ],
+      [
+        22,
+        "Stuck to"
+      ],
+      [
+        24,
+        "Good buddy, in Bourdeaux (or a novel by Guy de Maupassant)"
+      ],
+      [
+        25,
+        "\"I cook an egg with a spoon, ___!\" (Quote from the titular character of a 2001 movie, according to My Brother, My Brother and Me)"
+      ],
+      [
+        26,
+        "With 41-across, mighty component of some beach bodies"
+      ],
+      [
+        28,
+        "Whispy clouds (that sound like 9-down?)"
+      ],
+      [
+        30,
+        "Remark upon seeing 69-across?"
+      ],
+      [
+        31,
+        "Cousin of &lt;div&gt;"
+      ],
+      [
+        32,
+        "Like some farewells"
+      ],
+      [
+        33,
+        "Suffragist Carrie Chapman (sound-alike with the protagonist of \"10 Things I Hate About You\")"
+      ],
+      [
+        37,
+        "Botched tennis serve"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "With 1-down, mighty component of some beach bodies"
+      ],
+      [
+        8,
+        "More or less"
+      ],
+      [
+        11,
+        "\"Take a sample!\""
+      ],
+      [
+        12,
+        "Forbidden polyhedral snack"
+      ],
+      [
+        13,
+        "Coming out words, for some"
+      ],
+      [
+        14,
+        "Make a boo-boo"
+      ],
+      [
+        15,
+        "Some partners (abbr.)"
+      ],
+      [
+        16,
+        "Words before restating one's point"
+      ],
+      [
+        18,
+        "Chill"
+      ],
+      [
+        20,
+        "Uptown dir. in NYC"
+      ],
+      [
+        21,
+        "Deliverer of the result of a \"special hug\", perhaps (with \"The\")"
+      ],
+      [
+        23,
+        "In programming, case with names-like-this"
+      ],
+      [
+        27,
+        "EU precursor"
+      ],
+      [
+        29,
+        "Like some aces"
+      ],
+      [
+        30,
+        "It may be sent to 15-across and others"
+      ],
+      [
+        34,
+        "\"__ so hot you fry an egg\""
+      ],
+      [
+        35,
+        "It makes your RSUs worth something"
+      ],
+      [
+        36,
+        "Carefree lyric, of a sort"
+      ],
+      [
+        38,
+        "Fire"
+      ],
+      [
+        39,
+        "Fowl player?"
+      ],
+      [
+        40,
+        "Curtail"
+      ],
+      [
+        41,
+        "See 26-down"
+      ]
+    ]
+  }
+}

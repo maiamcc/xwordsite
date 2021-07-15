@@ -1,0 +1,206 @@
+{
+  "copyright": "©Maia McCormick Mar. 2021",
+  "solution": [
+    [
+      "#",
+      "#",
+      "G",
+      "N",
+      "C",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "P",
+      "R",
+      "E",
+      "O",
+      "P",
+      "#"
+    ],
+    [
+      "D",
+      "R",
+      "O",
+      "O",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "C",
+      "O",
+      "S",
+      "P",
+      "L",
+      "A",
+      "Y"
+    ],
+    [
+      "L",
+      "O",
+      "S",
+      "E",
+      "I",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "F",
+      "E",
+      "T",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "S",
+      "S",
+      "#",
+      "#"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      "#",
+      "#",
+      1,
+      2,
+      3,
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      4,
+      0,
+      0,
+      0,
+      5,
+      "#"
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      10,
+      0,
+      0,
+      0,
+      0,
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      11,
+      0,
+      0,
+      "#",
+      "#"
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Tamagotchi: TNG",
+  "version": "http://ipuz.org/v1",
+  "empty": "0",
+  "dimensions": {
+    "width": 7,
+    "height": 7
+  },
+  "clues": {
+    "Across": [
+      [
+        1,
+        "Not fitting neatly into the boxes of \"man\" or \"woman\" (abbr.)"
+      ],
+      [
+        4,
+        "Like a trans person before GRS (though we all know that you don't have to get or even want GRS to be trans, right??)"
+      ],
+      [
+        6,
+        "Made like Pavlov's dogs"
+      ],
+      [
+        8,
+        "Dressing up for Halloween, except it isn't Halloween, you're all adults, and the only sexy nurse is Nurse Joy"
+      ],
+      [
+        9,
+        "__ luster (get less appealing)"
+      ],
+      [
+        10,
+        "Shindigs"
+      ],
+      [
+        11,
+        "Format for Google Reader (RIP)"
+      ]
+    ],
+    "Down": [
+      [
+        1,
+        "Ickier"
+      ],
+      [
+        2,
+        "Tamagotchi: The Next Generation"
+      ],
+      [
+        3,
+        "Lassie and others"
+      ],
+      [
+        4,
+        "Thing conspiracy theorists always claim to have, but somehow never quite do"
+      ],
+      [
+        5,
+        "Some whiskey flavors"
+      ],
+      [
+        6,
+        "Franchise that put Mickey Mouse out to sea? (Abbr.)"
+      ],
+      [
+        7,
+        "Prefix for \"function\""
+      ]
+    ]
+  }
+}

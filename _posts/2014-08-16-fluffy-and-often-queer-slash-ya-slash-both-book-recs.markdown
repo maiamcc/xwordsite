@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Fluffy (and often Queer/YA/Both) Book Recs"
+date: 2014-08-16 22:55:44 -0400
+comments: true
+categories: [books]
+---
+In response to a recent Hacker School discussion about fluffy book recommendations written by !(white & cis-male), here's a list of some of my go-to's, and books I've enjoyed reading lately. What defines fluff? That's a more complicated question for a later time. How I've been thinking of it lately is as books that don't require much effort to read/parse---i.e., not an awful lot of subtext, relatively simple language and not too much artistry of the obfuscating variety in the text itself---that play off characters and tropes that we like to read about. They will generally have not-terribly-well-developed characters, characters that are easy to identify with, and the stories and happy endings that we want for ourselves. But, regardless of my definitional musings, here are some books! And so, in no particular order:
+
+* _Annie on My Mind_ by Nancy Garden: LOVE. I think it was the first bit of lesbian lit that I read, and thus holds a special place in my heart.
+* _The Miseducation of Cameron Post_, by Emily M. Danforth: follows a young girl's sexual self-discovery, first love(s), and her time at a homosexual rehabilitation program.
+* _Beautiful Game_ and _Solstice_ by Kate Christie: fluff in the highest degree, but well-written, engaging, hold-your-attention-till-the-very-end fluff. (I also think it's worth noting that I typed the title to the first as "Beautiful Gayme" the first time through. Oops...)
+* Anything by Tamora Pierce, but especially the _Song of the Lioness_ quartet: because Tamora Pierce is the bomb, and has an incredible gift for plots, and has been the beginning of more girls' feminism than can be counted. Feminist, sex-positive, swords-and-sorcery high fantasy at its best!<!-- more -->
+* The _Young Wizards_ books by Diane Duane: no queers, but excellent fantasy. A complex world of wizardy set against the backdrop of a modern-day Long Island suburb and the general difficulties of middle- and high-school.
+* _The Miles Vorkosigan Saga_ by Lois McMaster Bujold: a departure from the rest of this list. Not about queer people, but rather a sci-fi intrigue-and-space-battles series in which the protagonist is the physically deformed Miles. Without very much physical power at all, Miles has to rely on his wits, and what wits he has. He accidentally assembles a mercenary space fleet---oops! And that's just the beginning... (The first book in the series is _The Warrior's Apprentice_.)
+* _Graceling_ (and _Fire_ and _Bitterblue_) by Kristin Cashore: more excellent YA high fantasy with kick-ass female protagonists, well-rounded characters, gripping plotlines, and excellent super-powers. Did I mention it was written by a Williams alum?
+* _A Love Story Starring My Dead Best Friend_ by Emily Horner: I'm going to go ahead and guess that Horner was a thespian in high school, because her descriptions of the thespian community in this book are almost frustratingly specific in the sort of in-jokes and quirkiness that they entail, but because of that, quite true to life. Our narrator Cass tries to come to grips with the death of her best friend Julia, and the feelings she (Cass) may have had for her, as she works tireless to realize Julia's secret project, the musical "Totally Sweet Ninja Death Squad", with some complicated (of course, because why would it ever not be complicated?) romance thrown in for good measure.
+* _If You Follow Me_ by Malena Watrous: two American women (lovers) living in Japan teaching English and navigating their life together and all that it entails.
+* _The Age of Miracles_ by Karen Thompson Walker: picked this up on a whim from a street-side used book stand and was pleasantly surprised by how much I enjoyed it. The rotation of the earth is slowly slowing. As days and nights get longer and the very fabric of human life is thrown into disarray, Julia narrates a gut-punching blend of apocalypse and the trials and tribulations of middle-school.
+
+(Also, they don't belong on this list officially because, y'know, cis white dudes, but stuff by David Levithan and David Sedaris is highly enjoyable---the first writes adorable and heartwarming gay-boy romances, the second writes gloriously dorky comedic autobiographical essays.)

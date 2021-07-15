@@ -1,0 +1,53 @@
+---
+layout: default
+comments: true
+sidebar: false
+---
+{% include custom/facebook-init.html %}
+
+<div>
+<article role="article">
+  {% if page.title %}
+  <header>
+    <h1 class="entry-title">[Crosswords] {{ page.title }}</h1>
+    {% if page.date %}<p class="meta">{% include custom/short_date.html %}{{ time }}</p>{% endif %}
+  </header>
+  {% endif %}
+
+  <div class="puzzle-container single-puzzle">
+    <div class="puzzle">
+      <div class="info notes"><em>Constructor notes</em>: {{ page.notes }}</div>
+      {% if page.dimensions %}
+        <div class="info dimensions"><em>Dimensions</em>: {{ page.dimensions }}</div>
+      {% endif %}
+      {% if page.day_of_week %}
+        <div class="info difficulty"><em>Approx. difficulty</em>: NYT {{ page.day_of_week }}</div>
+      {% endif %}
+
+      <div class="center">
+        <iframe height="550px" width="100%" allowfullscreen="true" style="border:none;width: 100% !important;position: static;display: block !important;margin: 0 !important;" src="https://squares.io/solve/{{ page.squares_io_id }}?embed=1"></iframe>
+      </div>
+
+      <div class="info files">
+        <a href="/crosswords/{{page.slug}}/{{page.slug}}.pdf">PDF</a> |
+        <a href="/crosswords/{{page.slug}}/{{page.slug}}.puz" download>PUZ</a> |
+        <a href="/crosswords/{{page.slug}}/{{page.slug}}.ipuz" download>IPUZ</a> |
+        <a href="/crosswords/{{page.slug}}/{{page.slug}}-solution.pdf">solution</a>
+      </div>
+    </div>
+    <div class="back"><a href="/crosswords">← back</a></div>
+  </div>
+
+    <footer>
+      {% include post/sharing.html %}
+    </footer>
+</article>
+  <section>
+    <h2 style="margin-bottom:0;">Solved it? Gave up? Loved it? Hated it? Leave a comment!</h2>
+    <h3>(No spoilers please!)</h3>
+    <div class="fb-comments" data-href="http://code.maiamccormick.com/crosswords/{{ page.slug }}" data-colorscheme="light" data-num-posts="6" data-width="100%"></div>
+  </section>
+</div>
+<aside class="sidebar">
+  {% include sidebar.html %}
+</aside>

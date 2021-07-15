@@ -1,0 +1,480 @@
+{
+  "copyright": "© Maia McCormick 2021",
+  "solution": [
+    [
+      "R",
+      "E",
+      "A",
+      "G",
+      "A",
+      "N",
+      "#",
+      "P",
+      "A",
+      "S",
+      "T"
+    ],
+    [
+      "U",
+      "N",
+      "L",
+      "A",
+      "C",
+      "E",
+      "#",
+      "O",
+      "R",
+      "E",
+      "O"
+    ],
+    [
+      "B",
+      "R",
+      "O",
+      "W",
+      "N",
+      "B",
+      "U",
+      "T",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "R",
+      "I",
+      "N",
+      "D",
+      "E",
+      "#",
+      "S",
+      "A",
+      "S",
+      "S",
+      "Y"
+    ],
+    [
+      "I",
+      "C",
+      "S",
+      "#",
+      "#",
+      "H",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "O",
+      "K",
+      "I",
+      "E",
+      "D",
+      "O",
+      "U",
+      "G",
+      "H"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "S",
+      "#",
+      "#",
+      "N",
+      "R",
+      "A"
+    ],
+    [
+      "U",
+      "S",
+      "U",
+      "R",
+      "P",
+      "#",
+      "A",
+      "S",
+      "S",
+      "E",
+      "T"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "E",
+      "S",
+      "S",
+      "B",
+      "A",
+      "K",
+      "E",
+      "R"
+    ],
+    [
+      "P",
+      "E",
+      "E",
+      "N",
+      "#",
+      "E",
+      "U",
+      "G",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "S",
+      "P",
+      "A",
+      "S",
+      "#",
+      "S",
+      "T",
+      "E",
+      "W",
+      "E",
+      "D"
+    ]
+  ],
+  "kind": [
+    "http://ipuz.org/crossword#1"
+  ],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      "#",
+      7,
+      8,
+      9,
+      10
+    ],
+    [
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      12,
+      0,
+      0,
+      0
+    ],
+    [
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      15,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      17,
+      0,
+      0,
+      "#",
+      "#",
+      18,
+      0,
+      0,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      19,
+      0,
+      0,
+      20,
+      21,
+      0,
+      0,
+      0,
+      22,
+      23,
+      24
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      25,
+      0,
+      0,
+      "#",
+      "#",
+      26,
+      0,
+      0
+    ],
+    [
+      27,
+      28,
+      29,
+      0,
+      0,
+      "#",
+      30,
+      31,
+      0,
+      0,
+      0
+    ],
+    [
+      32,
+      0,
+      0,
+      0,
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      34,
+      0,
+      0,
+      0,
+      "#",
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      36,
+      0,
+      0,
+      0,
+      "#",
+      37,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Coping Strategies",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 11,
+    "height": 11
+  },
+  "clues": {
+    "Across": [
+      [
+        1,
+        "AIDS ignorer"
+      ],
+      [
+        7,
+        "It may be checkered"
+      ],
+      [
+        11,
+        "Disassemble a football, maybe"
+      ],
+      [
+        12,
+        "One possible final form for 19-across"
+      ],
+      [
+        13,
+        "Toasty sometimes-component of 19-across"
+      ],
+      [
+        15,
+        "Contemporary composer Eckert"
+      ],
+      [
+        16,
+        "Smart"
+      ],
+      [
+        17,
+        "Programmers who exclusively write code, as opposed to managing others (abbr.)"
+      ],
+      [
+        18,
+        "Not queer, slangily"
+      ],
+      [
+        19,
+        "See 32-across"
+      ],
+      [
+        25,
+        "Head for Bottom?"
+      ],
+      [
+        26,
+        "Org. offering \"Accidental Death and Dismemberment\" coverage as a perk of membership"
+      ],
+      [
+        27,
+        "Take the throne (like Claudius)"
+      ],
+      [
+        30,
+        "Balance sheet plus"
+      ],
+      [
+        32,
+        "One who makes 19-across in times of crisis"
+      ],
+      [
+        34,
+        "Tool, (also) slangily"
+      ],
+      [
+        35,
+        "Krabs of Bikini Bottom"
+      ],
+      [
+        36,
+        "Places for mud baths"
+      ],
+      [
+        37,
+        "Like some prunes or heavy drinkers"
+      ]
+    ],
+    "Down": [
+      [
+        1,
+        "Set of evaluation criteria"
+      ],
+      [
+        2,
+        "Henri, on the far side of Switzerland"
+      ],
+      [
+        3,
+        "Cervantes' Quixano or \"The Tempest\" king"
+      ],
+      [
+        4,
+        "Exaggerated deity?"
+      ],
+      [
+        5,
+        "Frequent result of lots of time spent wearing a mask"
+      ],
+      [
+        6,
+        "Nose, in Norfolk"
+      ],
+      [
+        7,
+        "Word after \"couch\" or before \"head\""
+      ],
+      [
+        8,
+        "Subjects for a Bachelor"
+      ],
+      [
+        9,
+        "Calls, in poker"
+      ],
+      [
+        10,
+        "Boris Johnson, for one"
+      ],
+      [
+        14,
+        "Not mint"
+      ],
+      [
+        18,
+        "\"__ a very smart prince, __ a prince who prepares...\""
+      ],
+      [
+        20,
+        "Ones asking to speak to a manager"
+      ],
+      [
+        21,
+        "Spectrum and Cricket, for two"
+      ],
+      [
+        22,
+        "Straighten"
+      ],
+      [
+        23,
+        "Georgia rep. who theorized about a Jewish space laser"
+      ],
+      [
+        24,
+        "Subject of a Wicked song, by another name"
+      ],
+      [
+        27,
+        "Org. that really delivers?"
+      ],
+      [
+        28,
+        "Armstrong took a small one"
+      ],
+      [
+        29,
+        "\"__, I've got it!\" (Cry from a nephrologist making a breakthrough?)"
+      ],
+      [
+        30,
+        "Be right up against"
+      ],
+      [
+        31,
+        "Learned"
+      ],
+      [
+        33,
+        "Parisian pronoun"
+      ]
+    ]
+  }
+}

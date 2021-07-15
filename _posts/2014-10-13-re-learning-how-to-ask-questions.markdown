@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Re-Learning How to Ask Questions"
+date: 2014-10-13 13:36:32 -0400
+comments: true
+categories:
+---
+I spent a ton of my time at Hacker School learning how to ask questions (or, to put a finer point on it, learning how to _not know things_ and admit to others that I don't know things). The main reason that HS was so hard at first was that I wasn't good at asking questions, at admitting when I didn't know things, at letting myself (I feared) appear "stupid" in front of others. I was still better than some folks at pushing through this, but I wasn't as good as I would have liked. (This is all tied into impostor syndrome, of course.)
+
+I got vastly better at this skill as I spent more time at Hacker School. I grew more comfortable in the environment, I gained trust in the folks around me and in my own abilities, and I came to believe that my asking questions, even ones about really basic (quote-unquote-"basic") things, was a display of intelligence rather than a display of ignorance.
+
+What I didn't realize about my shiny new skill of "Admitting When I Don't Know Something and Asking Questions" was how context-dependent it is. At Hacker School, in person or on Zulip, I feel totally comfortable asking questions about "simple" things, and admitting that I'm totally in over my head with, say, troubleshooting my Virtual Machine installation and would someone please help me, and what is actually the difference between GET and POST because I never really learned it... that sort of thing. But as I prepare my application for the coming round of [OPW](https://opw.gnome.org) and dive head-first into IRC chats about programs and programming styles I've never used before, that all seem to require strange dependencies or have to be run on X virtual machine with Y stuff built on it, I recognize a feeling from my early days of Hacker School.<!--more-->
+
+I'm scared. I'm intimidated. I feel like I don't belong here, like I don't know enough. Like I'm an impostor, and any second I will be found out. And as I force myself through these feelings to ask clarifying questions about whether x and y do in fact need to be run off a Linux VM, or go back to Zulip to ask a question about IRC that I'm too embarrassed to ask IN the IRC room I'm in, or keep silent with a question about how the hell I'm going to get started on this project because I figure everyone else knows the answer to that question and admitting that I don't will automatically disqualify me from OPW, I realize that I'm not done practicing the skills of Asking Questions and Admitting Ignorance.
+
+I got pretty adept at these things at Hacker School, but the OSS/OPW world is an entirely different environment, and I need to relearn these skills, as well as the self-confidence and trust that I need to apply them. Some of this will be learning the skills of this new world so I feel less like an impostor and more like I can hold my own, even if I don't know x and y. Some of this will be asking "dumb" questions and realizing that nothing bad happens when I do. Some of this will be talking to other people in this community, growing to trust them, and hearing their experiences with the same thing. And some of this... will just be time and practice and getting used to it. And when I land in another new environment---say, my first tech job---I will likely need to learn all of these skills over again.
+
+Whelp. Time to get to work.

@@ -1,0 +1,30 @@
+.puzzle-container {
+    .puzzle {
+        margin-top: 1.5em;
+    }
+
+    h3 {
+        margin-bottom: 0.5em;
+    }
+
+    .info {
+        padding-left: 2em;
+        text-indent: -2em;
+    }
+}
+
+.single-puzzle {
+  margin-bottom: 1em;
+
+  img {
+    margin: 0.5em;
+  }
+
+  div.files {
+    float: right;
+  }
+
+  div.back {
+    display: inline;
+  }
+}

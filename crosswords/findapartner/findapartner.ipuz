@@ -1,0 +1,855 @@
+{
+  "copyright": "© Maia McCormick, 2019",
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "origin": "CrossFire encoder v1",
+  "title": "Find a Partner",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "solution": [
+    [
+      "S",
+      "I",
+      "N",
+      "G",
+      "#",
+      "R",
+      "O",
+      "A",
+      "R",
+      "S",
+      "#",
+      "C",
+      "R",
+      "I",
+      "B"
+    ],
+    [
+      "E",
+      "P",
+      "E",
+      "E",
+      "#",
+      "H",
+      "A",
+      "V",
+      "O",
+      "C",
+      "#",
+      "H",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "I",
+      "T",
+      "#",
+      "O",
+      "H",
+      "G",
+      "O",
+      "D",
+      "#",
+      "U",
+      "R",
+      "E",
+      "A"
+    ],
+    [
+      "M",
+      "O",
+      "N",
+      "E",
+      "Y",
+      "M",
+      "U",
+      "S",
+      "K",
+      "#",
+      "F",
+      "R",
+      "Y",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "B",
+      "#",
+      "#",
+      "#",
+      "Y",
+      "O",
+      "L",
+      "O",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "U",
+      "P",
+      "#",
+      "M",
+      "I",
+      "S",
+      "F",
+      "I",
+      "T",
+      "S",
+      "#",
+      "M",
+      "S",
+      "G"
+    ],
+    [
+      "I",
+      "S",
+      "E",
+      "T",
+      "#",
+      "#",
+      "H",
+      "A",
+      "N",
+      "D",
+      "S",
+      "F",
+      "O",
+      "U",
+      "R"
+    ],
+    [
+      "T",
+      "U",
+      "T",
+      "S",
+      "I",
+      "#",
+      "R",
+      "U",
+      "T",
+      "#",
+      "E",
+      "B",
+      "O",
+      "L",
+      "A"
+    ],
+    [
+      "A",
+      "A",
+      "R",
+      "O",
+      "N",
+      "B",
+      "U",
+      "R",
+      "R",
+      "#",
+      "#",
+      "I",
+      "R",
+      "K",
+      "S"
+    ],
+    [
+      "S",
+      "L",
+      "O",
+      "#",
+      "U",
+      "P",
+      "B",
+      "E",
+      "A",
+      "T",
+      "S",
+      "#",
+      "E",
+      "S",
+      "P"
+    ],
+    [
+      "#",
+      "#",
+      "N",
+      "O",
+      "R",
+      "M",
+      "#",
+      "#",
+      "#",
+      "O",
+      "V",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "B",
+      "E",
+      "S",
+      "E",
+      "#",
+      "C",
+      "H",
+      "O",
+      "R",
+      "U",
+      "S",
+      "J",
+      "I",
+      "G"
+    ],
+    [
+      "T",
+      "A",
+      "L",
+      "C",
+      "#",
+      "I",
+      "R",
+      "E",
+      "N",
+      "E",
+      "#",
+      "C",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "I",
+      "S",
+      "L",
+      "A",
+      "#",
+      "R",
+      "E",
+      "R",
+      "U",
+      "N",
+      "#",
+      "O",
+      "D",
+      "I",
+      "N"
+    ],
+    [
+      "S",
+      "E",
+      "A",
+      "R",
+      "#",
+      "A",
+      "D",
+      "O",
+      "P",
+      "T",
+      "#",
+      "T",
+      "E",
+      "S",
+      "T"
+    ]
+  ],
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      "#",
+      5,
+      6,
+      7,
+      8,
+      9,
+      "#",
+      10,
+      11,
+      12,
+      13
+    ],
+    [
+      14,
+      0,
+      0,
+      0,
+      "#",
+      15,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      17,
+      0,
+      0,
+      0,
+      "#",
+      18,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      20,
+      0,
+      0,
+      0,
+      21,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      22,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      23,
+      0,
+      0,
+      "#",
+      "#",
+      "#",
+      24,
+      0,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      25,
+      26,
+      27,
+      "#",
+      28,
+      0,
+      29,
+      30,
+      31,
+      0,
+      0,
+      "#",
+      32,
+      33,
+      34
+    ],
+    [
+      35,
+      0,
+      0,
+      36,
+      "#",
+      "#",
+      37,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0,
+      0
+    ],
+    [
+      39,
+      0,
+      0,
+      0,
+      40,
+      "#",
+      41,
+      0,
+      0,
+      "#",
+      42,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      43,
+      0,
+      0,
+      0,
+      0,
+      44,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      45,
+      0,
+      0,
+      0
+    ],
+    [
+      46,
+      0,
+      0,
+      "#",
+      47,
+      0,
+      0,
+      0,
+      0,
+      48,
+      49,
+      "#",
+      50,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      51,
+      52,
+      0,
+      0,
+      "#",
+      "#",
+      "#",
+      53,
+      0,
+      54,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      55,
+      56,
+      0,
+      0,
+      0,
+      "#",
+      57,
+      58,
+      59,
+      0,
+      0,
+      0,
+      60,
+      61,
+      62
+    ],
+    [
+      63,
+      0,
+      0,
+      0,
+      "#",
+      64,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      65,
+      0,
+      0,
+      0
+    ],
+    [
+      66,
+      0,
+      0,
+      0,
+      "#",
+      67,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      68,
+      0,
+      0,
+      0
+    ],
+    [
+      69,
+      0,
+      0,
+      0,
+      "#",
+      70,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      71,
+      0,
+      0,
+      0
+    ]
+  ],
+  "intro": "Completed Nov. 2019, created using Phil (by Keiran King).",
+  "block": "#",
+  "dimensions": {
+    "width": 15,
+    "height": 15
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Joining place"
+      ],
+      [
+        2,
+        "__ facto"
+      ],
+      [
+        3,
+        "\"No,\" in Nuremberg"
+      ],
+      [
+        4,
+        "\"Fido, attack!\""
+      ],
+      [
+        5,
+        "Some quadrilaterals"
+      ],
+      [
+        6,
+        "Hawaiian island"
+      ],
+      [
+        7,
+        "Means (abbr.)"
+      ],
+      [
+        8,
+        "One starts at A1, A8, H1, and H8"
+      ],
+      [
+        9,
+        "Dance with much skipping (abbr.)"
+      ],
+      [
+        10,
+        "Jerk, archaically"
+      ],
+      [
+        11,
+        "An Irishman you simply can't get enough of?"
+      ],
+      [
+        12,
+        "\"____ what you did there...\""
+      ],
+      [
+        13,
+        "Twink's counterpart"
+      ],
+      [
+        21,
+        "Orange tuber"
+      ],
+      [
+        22,
+        "Broadway choreographer fond of jazz hands"
+      ],
+      [
+        24,
+        "Since January, say (abbr.)"
+      ],
+      [
+        25,
+        "Falafel holders"
+      ],
+      [
+        26,
+        "Standard order, with \"the\""
+      ],
+      [
+        27,
+        "What the rapper of \"Hot in Herre\" (if he were a little more feminine) might call his new oil company?"
+      ],
+      [
+        29,
+        "Drinking vinegar"
+      ],
+      [
+        30,
+        "French composer Gabriel"
+      ],
+      [
+        31,
+        "Prefix with \"mural\""
+      ],
+      [
+        33,
+        "A petulant mood, with \"the\""
+      ],
+      [
+        34,
+        "Comprehend"
+      ],
+      [
+        36,
+        "Imaginary Chinese general"
+      ],
+      [
+        38,
+        "US law-enforcement agency"
+      ],
+      [
+        40,
+        "Habituate to"
+      ],
+      [
+        44,
+        "Your standard contradance is at about 120 (abbr.)"
+      ],
+      [
+        48,
+        "Sign over a vacant storefront"
+      ],
+      [
+        49,
+        "\"Law &amp; Order\" spinoff, briefly"
+      ],
+      [
+        52,
+        "Award for \"Moonlight\""
+      ],
+      [
+        54,
+        "Fancy necktie"
+      ],
+      [
+        55,
+        "Elevator giant"
+      ],
+      [
+        56,
+        "Unsophisticated"
+      ],
+      [
+        57,
+        "Cachet, slangily"
+      ],
+      [
+        58,
+        "Hoagie, to a New Yorker"
+      ],
+      [
+        59,
+        "\"Move ____\" (soul song)"
+      ],
+      [
+        60,
+        "Green stone"
+      ],
+      [
+        61,
+        "Blue-violet flower"
+      ],
+      [
+        62,
+        "Left-hand side of an outdated pair"
+      ],
+      [
+        64,
+        "Retirement plan (abbr.)"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "What one might do on a tune like \"Angeline the Baker\""
+      ],
+      [
+        5,
+        "Pride sounds?"
+      ],
+      [
+        10,
+        "Dwelling, slangily"
+      ],
+      [
+        14,
+        "Fencer's implement"
+      ],
+      [
+        15,
+        "It may be wrought"
+      ],
+      [
+        16,
+        "Often-green garden appliance"
+      ],
+      [
+        17,
+        "\"____ was in the beginning...\""
+      ],
+      [
+        18,
+        "Believer's exclamation"
+      ],
+      [
+        19,
+        "Kidney byproduct"
+      ],
+      [
+        20,
+        "The smell of financial success?"
+      ],
+      [
+        22,
+        "One who makes onion rings"
+      ],
+      [
+        23,
+        "Queen of the fairies"
+      ],
+      [
+        24,
+        "\"Fuck it, I'm gonna do it!\""
+      ],
+      [
+        25,
+        "Baby shark"
+      ],
+      [
+        28,
+        "Tailors incorrectly?"
+      ],
+      [
+        32,
+        "Amer. Chinese food ingredient"
+      ],
+      [
+        35,
+        "\"____ fire to the rain\" (Adele lyric)"
+      ],
+      [
+        37,
+        "Two pairs of partners"
+      ],
+      [
+        39,
+        "Rwandan ethnic group"
+      ],
+      [
+        41,
+        "One might get stuck in it"
+      ],
+      [
+        42,
+        "Outbreak of 2018"
+      ],
+      [
+        43,
+        "\"Pardon me, are you ____, sir?\""
+      ],
+      [
+        45,
+        "Bothers"
+      ],
+      [
+        46,
+        "__-motion (film speed)"
+      ],
+      [
+        47,
+        "Lead-ins to a bar"
+      ],
+      [
+        50,
+        "Spain, on a scoreboard"
+      ],
+      [
+        51,
+        "Nickname for someone from the north of France?"
+      ],
+      [
+        53,
+        "Some gametes"
+      ],
+      [
+        55,
+        "Greater than 30 on a certain (problematic) scale"
+      ],
+      [
+        57,
+        "The result of the narrators of a Greek tragedy joining Riverdance?"
+      ],
+      [
+        63,
+        "Soother of baby bottoms"
+      ],
+      [
+        64,
+        "Lead Belly lady"
+      ],
+      [
+        65,
+        "Be invested"
+      ],
+      [
+        66,
+        "Puerto Rico, por ejemplo"
+      ],
+      [
+        67,
+        "Any Seinfeld episode currently on TV"
+      ],
+      [
+        68,
+        "Father of Thor"
+      ],
+      [
+        69,
+        "Cook so as to seal in juices"
+      ],
+      [
+        70,
+        "Agree to, as a bylaw"
+      ],
+      [
+        71,
+        "Try out, as a product"
+      ]
+    ]
+  }
+}

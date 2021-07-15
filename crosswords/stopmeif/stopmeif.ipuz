@@ -1,0 +1,854 @@
+{
+  "copyright": "© Maia McCormick, 2020",
+  "solution": [
+    [
+      "F",
+      "A",
+      "L",
+      "S",
+      "E",
+      "#",
+      "D",
+      "A",
+      "T",
+      "A",
+      "#",
+      "U",
+      "N",
+      "I",
+      "T"
+    ],
+    [
+      "A",
+      "N",
+      "O",
+      "N",
+      "S",
+      "#",
+      "A",
+      "G",
+      "E",
+      "D",
+      "#",
+      "N",
+      "E",
+      "R",
+      "O"
+    ],
+    [
+      "R",
+      "E",
+      "L",
+      "I",
+      "C",
+      "#",
+      "L",
+      "E",
+      "N",
+      "S",
+      "#",
+      "G",
+      "A",
+      "I",
+      "N"
+    ],
+    [
+      "O",
+      "W",
+      "L",
+      "P",
+      "A",
+      "C",
+      "I",
+      "N",
+      "O",
+      "#",
+      "C",
+      "U",
+      "R",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "P",
+      "A",
+      "#",
+      "T",
+      "R",
+      "I",
+      "A",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "J",
+      "S",
+      "#",
+      "E",
+      "S",
+      "L",
+      "#",
+      "#",
+      "C",
+      "R",
+      "A",
+      "S",
+      "S",
+      "#"
+    ],
+    [
+      "T",
+      "O",
+      "P",
+      "S",
+      "#",
+      "H",
+      "A",
+      "R",
+      "R",
+      "Y",
+      "O",
+      "T",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "S",
+      "N",
+      "O",
+      "O",
+      "T",
+      "#",
+      "L",
+      "O",
+      "O",
+      "#",
+      "L",
+      "E",
+      "A",
+      "V",
+      "E"
+    ],
+    [
+      "D",
+      "A",
+      "R",
+      "T",
+      "H",
+      "G",
+      "A",
+      "T",
+      "O",
+      "R",
+      "#",
+      "S",
+      "T",
+      "E",
+      "P"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "O",
+      "R",
+      "Y",
+      "#",
+      "#",
+      "M",
+      "E",
+      "G",
+      "#",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "O",
+      "N",
+      "E",
+      "Y",
+      "#",
+      "A",
+      "R",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "A",
+      "W",
+      "#",
+      "B",
+      "A",
+      "T",
+      "M",
+      "I",
+      "D",
+      "L",
+      "E",
+      "R"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "Y",
+      "#",
+      "S",
+      "O",
+      "R",
+      "E",
+      "#",
+      "P",
+      "E",
+      "E",
+      "V",
+      "E"
+    ],
+    [
+      "A",
+      "U",
+      "T",
+      "O",
+      "#",
+      "E",
+      "N",
+      "D",
+      "S",
+      "#",
+      "E",
+      "M",
+      "A",
+      "I",
+      "L"
+    ],
+    [
+      "B",
+      "E",
+      "E",
+      "R",
+      "#",
+      "C",
+      "Y",
+      "S",
+      "T",
+      "#",
+      "S",
+      "A",
+      "D",
+      "L",
+      "Y"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      "#",
+      6,
+      7,
+      8,
+      9,
+      "#",
+      10,
+      11,
+      12,
+      13
+    ],
+    [
+      14,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      15,
+      0,
+      0,
+      0,
+      "#",
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      17,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      18,
+      0,
+      0,
+      0,
+      "#",
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      20,
+      0,
+      0,
+      0,
+      0,
+      21,
+      0,
+      0,
+      0,
+      "#",
+      22,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      23,
+      0,
+      0,
+      "#",
+      24,
+      0,
+      25,
+      0,
+      0,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      26,
+      27,
+      28,
+      "#",
+      29,
+      0,
+      30,
+      "#",
+      "#",
+      31,
+      0,
+      0,
+      32,
+      33,
+      "#"
+    ],
+    [
+      34,
+      0,
+      0,
+      35,
+      "#",
+      36,
+      0,
+      37,
+      38,
+      0,
+      0,
+      0,
+      0,
+      0,
+      39
+    ],
+    [
+      40,
+      0,
+      0,
+      0,
+      41,
+      "#",
+      42,
+      0,
+      0,
+      "#",
+      43,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      44,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      46,
+      "#",
+      47,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      48,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      49,
+      0,
+      50,
+      "#",
+      51,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      52,
+      0,
+      0,
+      53,
+      54,
+      "#",
+      55,
+      0,
+      56,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      57,
+      58,
+      59,
+      0,
+      0,
+      "#",
+      60,
+      0,
+      61,
+      0,
+      0,
+      0,
+      62,
+      63,
+      64
+    ],
+    [
+      65,
+      0,
+      0,
+      0,
+      "#",
+      66,
+      0,
+      0,
+      0,
+      "#",
+      67,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      68,
+      0,
+      0,
+      0,
+      "#",
+      69,
+      0,
+      0,
+      0,
+      "#",
+      70,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      71,
+      0,
+      0,
+      0,
+      "#",
+      72,
+      0,
+      0,
+      0,
+      "#",
+      73,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Stop Me If You've Heard This One",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 15,
+    "height": 15
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Old gambling game"
+      ],
+      [
+        2,
+        "Again"
+      ],
+      [
+        3,
+        "Thing to do on a lazy Sunday"
+      ],
+      [
+        4,
+        "Makes a tiny cut"
+      ],
+      [
+        5,
+        "Fly the coop"
+      ],
+      [
+        6,
+        "Face-melting painter?"
+      ],
+      [
+        7,
+        "One who arranges auditions"
+      ],
+      [
+        8,
+        "Pears or Domingo, for instance"
+      ],
+      [
+        9,
+        "Video interrupters"
+      ],
+      [
+        10,
+        "Hippopotami, e.g."
+      ],
+      [
+        11,
+        "Approach"
+      ],
+      [
+        12,
+        "Greek goddess of the rainbow"
+      ],
+      [
+        13,
+        "Define, as abs"
+      ],
+      [
+        21,
+        "Greenbacks"
+      ],
+      [
+        22,
+        "\"Adam Lay Ybounden\" or \"In the Bleak Midwinter\""
+      ],
+      [
+        25,
+        "Like some perilous roads"
+      ],
+      [
+        26,
+        "Soldier's Heart, in the DSM"
+      ],
+      [
+        27,
+        "Kevin, Joe, or Nick"
+      ],
+      [
+        28,
+        "Wear showily"
+      ],
+      [
+        30,
+        "Land inhabited by Ryan Gosling?"
+      ],
+      [
+        32,
+        "Not Guam, notably"
+      ],
+      [
+        33,
+        "Remove, as a head"
+      ],
+      [
+        35,
+        "Sonia who sits with Stephen and Elena"
+      ],
+      [
+        37,
+        "Not keep"
+      ],
+      [
+        38,
+        "Share accommodations, with \"with\""
+      ],
+      [
+        39,
+        "California has 53 and Washington, D.C. has none"
+      ],
+      [
+        41,
+        "Deliberately lose, as a game"
+      ],
+      [
+        45,
+        "MD doing Paps"
+      ],
+      [
+        46,
+        "Rebuke (with \"out\")"
+      ],
+      [
+        50,
+        "The stuff of one-star reviews"
+      ],
+      [
+        53,
+        "Material for flats, traditionally"
+      ],
+      [
+        54,
+        "Non-existent real estate in Manhattan"
+      ],
+      [
+        56,
+        "Swelling"
+      ],
+      [
+        57,
+        "Attempt (with \"at\")"
+      ],
+      [
+        58,
+        "Not 1-across"
+      ],
+      [
+        59,
+        "MPG or velocity, for example"
+      ],
+      [
+        61,
+        "Try"
+      ],
+      [
+        62,
+        "Toxic element of makeup culture?"
+      ],
+      [
+        63,
+        "Villainous"
+      ],
+      [
+        64,
+        "Depend (on)"
+      ],
+      [
+        66,
+        "Hypotenuse / adjacent side, for short"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "0, to a machine"
+      ],
+      [
+        6,
+        "TNG android"
+      ],
+      [
+        10,
+        "Meter or erg, e.g."
+      ],
+      [
+        14,
+        "Tumblr or 4Chan users posting without signing in"
+      ],
+      [
+        15,
+        "Left adolescence"
+      ],
+      [
+        16,
+        "Fiery fiddler"
+      ],
+      [
+        17,
+        "Teotihuacán find, perhaps"
+      ],
+      [
+        18,
+        "Word after \"critical\" or \"contact\""
+      ],
+      [
+        19,
+        "Input volume setting"
+      ],
+      [
+        20,
+        "What do you call a movie star in a tree?"
+      ],
+      [
+        22,
+        "Red Sox affliction until 2004, according to some"
+      ],
+      [
+        23,
+        "Place for a mud bath"
+      ],
+      [
+        24,
+        "First month free, say"
+      ],
+      [
+        26,
+        "Lazy day wear, for some"
+      ],
+      [
+        29,
+        "ESOL, once"
+      ],
+      [
+        31,
+        "Uncouth"
+      ],
+      [
+        34,
+        "Shirts or blouses"
+      ],
+      [
+        36,
+        "What do you call a wizard in a river?"
+      ],
+      [
+        40,
+        "It may be booped"
+      ],
+      [
+        42,
+        "A place to go in Britain"
+      ],
+      [
+        43,
+        "Permission"
+      ],
+      [
+        44,
+        "What do you call a Dark Lord in a bayou?"
+      ],
+      [
+        47,
+        "One of twelve, for an AA member"
+      ],
+      [
+        48,
+        "Yarn"
+      ],
+      [
+        49,
+        "Sister to Charles Wallace"
+      ],
+      [
+        51,
+        "Conversational fillers"
+      ],
+      [
+        52,
+        "Greenbacks"
+      ],
+      [
+        55,
+        "\"Son\", \"sunt\", or \"sind\""
+      ],
+      [
+        57,
+        "Porcine building material"
+      ],
+      [
+        60,
+        "What do you call a singer in a cave?"
+      ],
+      [
+        65,
+        "Word after \"CD\" or \"lunch\""
+      ],
+      [
+        66,
+        "Like some subjects"
+      ],
+      [
+        67,
+        "An annoyance that may be kept as a pet?"
+      ],
+      [
+        68,
+        "Lead-in to \"immune\" or \"mobile\""
+      ],
+      [
+        69,
+        "They're made to meet"
+      ],
+      [
+        70,
+        "Digital missive"
+      ],
+      [
+        71,
+        "\"__ me!\" (Homer's command to Moe)"
+      ],
+      [
+        72,
+        "Ovarian swelling"
+      ],
+      [
+        73,
+        "\"'I get really depressed every winter,' said Tom, __.\""
+      ]
+    ]
+  }
+}

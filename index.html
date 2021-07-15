@@ -1,0 +1,28 @@
+---
+layout: default
+secret_title: Blog  # don't put this in <title>
+---
+<div class="blog-index">
+  <article>
+    Hi, my name is Maia 👋🏻 and I'm a programmer based in New York City. This website is where I (somewhat infrequently) chronicle my journeys through code, as well as other vaguely related adventures.
+  </article>
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="/{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    <a href="/blog/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="/{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+</div>
+<aside class="sidebar">
+  {% include sidebar.html %}
+</aside>

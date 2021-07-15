@@ -1,0 +1,143 @@
+// Navbar
+$head-hov-color: #9E0000;
+$nav-bgcolor: #F2F2F2;
+$nav-font-size: 0.7em;
+
+// Header
+$header-left-width-narrow: 60%;
+$header-left-width-medium: 70%;
+$header-left-width-wide: 80%;
+$header-sep-color: #FFFFFF;
+$header-sep-height: 10px;
+$header-sep-color: #888;
+
+@mixin rounded($topBot, $side, $radius: 10px) {
+  border-#{$topBot}-#{$side}-radius: $radius;
+  -moz-border-#{$topBot}-radius-#{$side}: $radius;
+  -webkit-border-#{$topBot}-#{$side}-radius: $radius;
+}
+
+body > header {
+  padding-bottom: 0;
+  padding-top: 0;
+  background:url('/images/shatter_dark.png');
+  margin-bottom: 10px;
+  h1 > a:hover {
+    color: lighten($head-hov-color, 3);
+  }
+
+  // Left hand side of the header
+  div.header-left {
+    float: left;
+    width: $header-left-width-wide;
+    padding-top: $header-padding-top;
+    padding-bottom: $header-padding-bottom;
+
+    @media only screen and (min-width: 530px) {
+      width: $header-left-width-narrow;
+    }
+    @media only screen and (min-width: 620px) {
+      width: $header-left-width-medium;
+    }
+    @media only screen and (min-width: 720px) {
+      width: $header-left-width-narrow;
+    }
+    @media only screen and (min-width: 768px) {
+      width: $header-left-width-medium;
+    }
+    @media only screen and (min-width: 830px) {
+      width: $header-left-width-narrow;
+    }
+    @media only screen and (min-width: 1000px) {
+      width: $header-left-width-wide;
+    }
+    @media only screen and (min-width: 1030px) {
+      width: $header-left-width-medium;
+    }
+    @media only screen and (min-width: 1200px) {
+      width: $header-left-width-narrow;
+    }
+
+    div.subtitle {
+      padding-left: 2%;
+    }
+
+  }
+
+  // Right hand side of the header
+  // -The navigation menu has been moved from under the header
+  // to residing inside it
+  div.header-right {
+    overflow: auto;
+    font-size: $nav-font-size;
+    ul.main-navigation {
+      float:left;
+      display: inline;
+      margin-top: 20px;
+
+      div.spacer {
+        height: 7px;
+        border-left: 2px solid $nav-bgcolor;
+      }
+      div.selected {
+        background-color: $nav-bgcolor;
+        @include rounded(top, right);
+        @include rounded(bottom, right);
+        display: inline;
+        padding: {
+          bottom: 3px;
+          top: 3px;
+        }
+        a {
+          color: $head-hov-color;
+        }
+      }
+      li {
+        list-style: none;
+        border-left: 2px solid $nav-bgcolor;
+        display: inline;
+        padding: 3px 15px;
+        a {
+          text-decoration: none;
+          color: #f2f2f2;
+          width: 100%;
+        }
+        &:hover {
+          background-color: $nav-bgcolor;
+          @include rounded(top, right);
+          @include rounded(bottom, right);
+          a {
+            color: $head-hov-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+div.social-icons {
+  display: inline;
+  a {
+    white-space: normal;
+  }
+  a:hover {
+    opacity: 0.75;
+  }
+  img {
+    width: 40px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0) 0 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0) 0 0px;
+  }
+}
+
+// Adding a seperator between the header and content
+body > div#main {
+  div#head-sep {
+    width: $max-width;
+    height:$header-sep-height;
+    background-color:$header-sep-color;
+  }
+
+}

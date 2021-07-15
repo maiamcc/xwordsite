@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://maiamcc.github.io/sitemap.xml 

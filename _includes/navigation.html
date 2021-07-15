@@ -1,0 +1,16 @@
+<ul class="main-navigation">
+{% if page.secret_title == 'Blog' %} <div class="selected"> {% else %} <div> {% endif %}
+  <li><a href="{{ root_url }}/">blog</a></li></div>
+  <div class="spacer"></div>
+
+{% if page.title == 'Projects' %} <div class="selected"> {% else %} <div> {% endif %}
+  <li><a href="{{ root_url }}/projects">projects</a></li></div>
+  <div class="spacer"></div>
+
+{% if page.title == 'Crosswords By Maia' %} <div class="selected"> {% else %} <div> {% endif %}
+  <li><a href="{{ root_url }}/crosswords">crosswords</a></li></div>
+  <div class="spacer"></div>
+
+{% if page.title == 'About Me' %} <div class="selected"> {% else %} <div> {% endif %}
+  <li><a href="{{ root_url }}/about">about</a></li></div>
+</ul>
