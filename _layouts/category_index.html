@@ -3,15 +3,23 @@ layout: page
 footer: false
 ---
 
-<div id="blog-archives" class="category">
-{% for post in site.categories[page.category] %}
-{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% unless year == this_year %}
-  {% assign year = this_year %}
-  <h2>{{ year }}</h2>
-{% endunless %}
-<article>
-  {% include archive_post.html %}
-</article>
-{% endfor %}
-</div>
+<!-- By markmw: https://gist.github.com/markwk/52d00f3f4e1ef1598fc2fb58f5b8ab7c -->
+<section>
+    <div id="blog-category">
+      {% for post in paginator.posts %}
+        {% include archive_post.html %}
+      {% endfor %}
+    </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  {% if paginator.previous_page_path %}
+    <a class="button previous" href="{{ paginator.previous_page_path }}" title="Previous posts">previous </a>
+  {% endif %}
+
+  {% if paginator.next_page_path %}
+    <a class="button next" href="{{ paginator.next_page_path }}" title="Next posts"> next</a>
+  {% endif %}
+</nav>
+{% endif %}
