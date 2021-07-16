@@ -52,14 +52,12 @@ h1 {
   h1 { font-size: 2.4em; line-height: 1.2em; }
 }
 
-/* idk what's going on here so we're commenting it out til I can decipher it
-#{headings()}{
+h1, h2, h3, h4, h5, h6 {
   @extend .heading;
   text-rendering: optimizelegibility;
   margin-bottom: 1em;
   font-weight: bold;
 }
-*/
 
 h2, section h1 {
   font-size: 1.5em;
