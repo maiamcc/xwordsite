@@ -1,5 +1,5 @@
 .side-shadow-border {
-  @include box-shadow(lighten($sidebar-bg, 5) 0 1px);
+  box-shadow: lighten($sidebar-bg, 5) 0 1px;
 }
 aside.sidebar {
   overflow: hidden;
@@ -42,7 +42,7 @@ aside.sidebar {
   }
   a {
     color: inherit;
-    @include transition(color .5s);
+    transition: color .5s;
   }
   &:hover a {
     &:hover { color: $sidebar-link-color-hover; }
@@ -66,7 +66,7 @@ aside.sidebar {
     cursor: pointer;
     &:hover {
       background: mix($sidebar-border, $sidebar-bg);
-      @include background(linear-gradient(left, rgba($sidebar-border, .5), rgba($sidebar-border, 0)));
+      background: linear-gradient(left, rgba($sidebar-border, .5), rgba($sidebar-border, 0));
     }
     &:after {
       position: absolute; right: -11px; top: 0;
@@ -74,7 +74,7 @@ aside.sidebar {
       font-size: 1.2em;
       line-height: 1.1em;
       padding-bottom: .15em;
-      @include border-bottom-right-radius(.3em);
+      border-bottom-right-radius: .3em;
       text-align: center;
       background: $main-bg $noise-bg;
       border-bottom: 1px solid $sidebar-border;

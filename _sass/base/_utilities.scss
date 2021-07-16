@@ -1,14 +1,14 @@
 @mixin mask-image($img, $repeat: no-repeat){
-  @include experimental(mask-image, image-url($img), -webkit, -moz, -o, -ms);
-  @include experimental(mask-repeat, $repeat, -webkit, -moz, -o, -ms);
+  mask-image: image-url($img);
+  mask-repeat: $repeat;
   width: image-width($img);
   height: image-height($img);
 }
 
 @mixin shadow-box($border: #fff .5em solid, $shadow: rgba(#000, .15) 0 1px 4px, $border-radius: .3em) {
-  @include border-radius($border-radius);
-  @include box-shadow($shadow);
-  @include box-sizing(border-box);
+  border-radius: $border-radius;
+  box-shadow: $shadow;
+  box-sizing: border-box;
   border: $border;
 }
 
@@ -26,3 +26,81 @@
   @return $text-color;
 }
 
+// Stolen from Compass: http://compass-style.org/reference/compass/typography/links/link_colors/
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+  color: $normal;
+  @if $visited {
+    &:visited {
+      color: $visited;
+    }
+  }
+  @if $focus {
+    &:focus {
+      color: $focus;
+    }
+  }
+  @if $hover {
+    &:hover {
+      color: $hover;
+    }
+  }
+  @if $active {
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+// Stolen from Compass: http://compass-style.org/reference/compass/utilities/general/clearfix/
+@mixin pie-clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Stolen from Compass: http://compass-style.org/reference/compass/typography/lists/horizontal_list/
+@mixin reset-box-model {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@mixin horizontal-list-container {
+  @include reset-box-model;
+  @include pie-clearfix;
+}
+
+@mixin horizontal-list-item($padding: 4px, $direction: left) {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+
+  white-space: nowrap;
+  float: $direction;
+  @if $padding {
+    padding: {
+      left: $padding;
+      right: $padding;
+    };
+    &:last-child {
+      padding-#{opposite-position($direction)}: 0;
+    }
+  }
+}
+
+@mixin horizontal-list($padding: 4px, $direction: left) {
+  @include horizontal-list-container;
+  li {
+    @include horizontal-list-item($padding, $direction);
+  }
+}
+
+// Stolen from Compass: http://compass-style.org/reference/compass/typography/links/hover_link/
+@mixin hover-link {
+  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}

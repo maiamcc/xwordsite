@@ -26,7 +26,7 @@ figcaption {
   @extend .flex-content;
   @extend .basic-alignment;
   @include shadow-box;
-  @include box-sizing(content-box);
+  box-sizing: content-box;
   background: #fff;
 }
 
@@ -58,7 +58,7 @@ figure.video-preview .video-icon {
   text-align: center;
   background: #000; /* fallback */
   background: rgba(0, 0, 0, 0.5);
-  @include border-radius(0.25em);
+  border-radius: 0.25em;
   border: 1px solid white; /* color fallback */
   border-color: rgba(255, 255, 255, 0.5);
   /* this just gets the triangle visually balanced - would have to change for some other icon */
@@ -68,9 +68,9 @@ figure.video-preview .video-icon {
 }
 
 .noborder figure, .noborder, figure img, figure video, figure .flash-video {
-  @include border-radius(0px);
-  @include box-shadow(none);
-  @include box-sizing(content-box);
+  border-radius: 0px;
+  box-shadow: none;
+  box-sizing: content-box;
   border: none;
 }
 

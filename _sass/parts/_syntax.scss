@@ -51,7 +51,7 @@ article{
 		font-size: 0.9em;
 		padding: 1px 3px;
 		margin: 0 3px;
-		@include border-radius(5px);
+		border-radius: 5px;
 	}
 	pre{
 		font-size: 1 / 0.9em;
@@ -59,13 +59,13 @@ article{
 		margin-top: 10px;
 		padding: 5px 15px;
 		overflow-x: auto;
-		@include border-radius(5px);
+		border-radius: 5px;
 		code{
 			background: none;
 			border: none;
 			padding: 0;
 			margin: 0;
-			@include border-radius(0);
+			border-radius: 0;
 		}
 	}
 }
@@ -75,7 +75,7 @@ figure.code{
 	border: 1px solid $pre-border;
 	margin-top: 10px;
 	padding: 5px 15px;
-	@include border-radius(5px);
+	border-radius: 5px;
 	figcaption{
 		font-size: 0.9em;
 		position: relative;
@@ -83,7 +83,7 @@ figure.code{
 			margin: -5px -15px 0;
 			padding: 5px 15px;
 			display: block;
-			@include background(linear-gradient(top, $pre-border, $pre-bg));
+			background: linear-gradient(top, $pre-border, $pre-bg);
 			&:empty{
 				display: none;
 			}
@@ -99,7 +99,7 @@ figure.code{
 		border: none;
 		padding: 0;
 		margin: 0;
-		@include border-radius(0);
+		border-radius: 0;
 	}
 	.highlight{
 		overflow-x: auto;
@@ -131,7 +131,7 @@ figure.code{
 	border: 1px solid $pre-border;
 	position: relative;
 	overflow: hidden;
-	@include border-radius(5px);
+	border-radius: 5px;
 	.gist-file{
 		margin: 0;
 		.gist-data{
@@ -147,7 +147,7 @@ figure.code{
 			line-height: 1.5;
 			margin: 0 -16px -6px;
 			padding: 5px 15px;
-			@include background(linear-gradient(top, $pre-bg, $pre-border));
+			background: linear-gradient(top, $pre-bg, $pre-border);
 			a{
 				color: $color-main;
 				&:first-of-type{
@@ -162,7 +162,7 @@ figure.code{
 					left: 0;
 					padding: 5px 15px;
 					width: 100%;
-					@include background(linear-gradient(top, $pre-border, $pre-bg));
+					background: linear-gradient(top, $pre-border, $pre-bg);
 				}
 			}
 		}
@@ -325,7 +325,7 @@ figure.code, .gist-highlight{
 	}
 	/* Name.Tag */
 	.nx {
-		color:$solar-yellow !Important;
+		color:$solar-yellow !important;
 	}
 	.vg {
 		color: $solar-blue !important;

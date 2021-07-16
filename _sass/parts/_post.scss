@@ -48,7 +48,7 @@
 			}
 
 			@media screen and (max-width: 620px){
-				@include inline-block;
+				display: inline-block;
 				margin-right: 30px;
 			}
 		}

@@ -1,9 +1,6 @@
-@import "compass";
-@include global-reset;
-
 @import "base";
 @import "partials";
-@import "plugins/**/*";
+@import "plugins";
 
 @import "custom/colors";
 @import "classic-martinb";
