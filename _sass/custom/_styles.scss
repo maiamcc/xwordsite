@@ -15,7 +15,7 @@ $color-windmill: #315D46;
 
 $border-ep: #E0E0E0;
 html {
-     background: image-url('background.png') repeat-x scroll center top $page-bg;
+     background: url('/images/background.png') repeat-x scroll center top $page-bg;
   }
 
   #main
