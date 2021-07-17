@@ -115,3 +115,4 @@ exclude:
    - vendor/ruby/
    - cloudbuild
    - .idea/workspace.xml
+   - todo
