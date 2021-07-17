@@ -26,6 +26,7 @@ url: "https://code.maiamccormick.com" # the base hostname & protocol for your si
 subscribe_rss: /atom.xml
 twitter_username: maia_mcc
 titlecase: true
+author: Maia McCormick
 
 # Build settings
 theme: minima

@@ -82,12 +82,31 @@ article {
       clear: both;
       overflow: hidden;
     }
-    .byline + time:before, time +time:before, .comments:before, .byline ~ .categories:before {
+  }
+}
+
+.meta {
+  & > span::after {
       @extend .separator;
     }
-  }
-
+  & > span:last-child::after {
+      content: "";
+    }
 }
+
+.categories {
+  span {
+    display: inline;
+    &::after {
+      content: ", ";
+      margin-left: -0.25em;
+    }
+    &:last-child::after {
+      content: "";
+    }
+  }
+}
+
 article + article {
   .blog-index & {
     background: $img-border top left repeat-x;
@@ -124,7 +143,7 @@ article + article {
 
 .separator {
   content: "\2022 ";
-  padding: 0 .4em 0 .2em;
+  padding: 0 .2em 0 .4em;
   display: inline-block;
 }
 

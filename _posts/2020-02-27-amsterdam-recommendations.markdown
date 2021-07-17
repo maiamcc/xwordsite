@@ -3,7 +3,7 @@ layout: post
 title: "Amsterdam Recommendations"
 date: 2020-02-27 16:19:24 -0500
 comments: true
-categories: travel, kubecon, non-technical
+categories: [travel, kubecon, non-technical]
 ---
 
 Huh, I guess I still have a blog!

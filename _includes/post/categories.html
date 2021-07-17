@@ -1,10 +1,20 @@
-{% capture category %}{% if post %}{{ post.categories | category_links | size }}{% else %}{{ page.categories | category_links | size }}{% endif %}{% endcapture %}
 {% unless category == '0' %}
 <span class="categories">
   {% if post %}
-    {{ post.categories | category_links }}
+    {% assign sorted = post.categories | sort %}
+    {% for category in sorted %}
+      <span>
+        <a class="category" href="/blog/categories/{{category}}">{{ category }}</a>
+      </span>
+    {% endfor %}
   {% else %}
-    {{ page.categories | category_links }}
+    {% assign sorted = page.categories | sort %}
+    {% for category in sorted %}
+      <span>
+        <a class="category" href="/blog/categories/{{category}}">{{ category }}</a>
+      </span>
+    {% endfor %}
   {% endif %}
+  </ul>
 </span>
 {% endunless %}

@@ -62,8 +62,13 @@
     }
   }
 }
-#blog-archives time {
-  position: absolute;
+#blog-archives {
+  time {
+    position: absolute;
+  }
+  .meta > span::after {
+    content: "";
+  }
 }
 
 #content > .category {
