@@ -3,15 +3,17 @@
   {% if post %}
     {% assign sorted = post.categories | sort %}
     {% for category in sorted %}
+      {% assign slug = category | getCategorySlug %}
       <span>
-        <a class="category" href="/blog/categories/{{category}}">{{ category }}</a>
+        <a class="category" href="/blog/categories/{{slug}}">{{ category }}</a>
       </span>
     {% endfor %}
   {% else %}
     {% assign sorted = page.categories | sort %}
     {% for category in sorted %}
+      {% assign slug = category | getCategorySlug %}
       <span>
-        <a class="category" href="/blog/categories/{{category}}">{{ category }}</a>
+        <a class="category" href="/blog/categories/{{slug}}">{{ category }}</a>
       </span>
     {% endfor %}
   {% endif %}

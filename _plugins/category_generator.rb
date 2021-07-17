@@ -40,6 +40,31 @@
 # {% endif %}
 
 module Jekyll
+  # Separate out this module so we can export as a filter
+  # to get the correct category slugs when adding links
+  module Utils
+    def removeDiacritics(str)
+      $defaultDiacriticsRemovalMap.each_with_index do |val, index|
+        str = str.gsub(val['letters'], val['base'])
+      end
+
+      return str
+    end
+
+    def getCategorySlug(cat)
+      cat = removeDiacritics(cat);
+      cat = cat.downcase
+      cat = cat.gsub(/,/, '')
+      cat = cat.gsub(/'/, '')
+      cat = cat.gsub(/&/, ' and ')
+      cat = cat.gsub(/%/, ' percent ')
+
+      # invalid chars, replace with hyphens
+      cat = cat.gsub(/[^a-z0-9-]/, '-')
+
+      return cat;
+     end
+  end
 
   class CategoryPagesGenerator < Generator
     safe true
@@ -141,31 +166,6 @@ module Jekyll
       (all_posts.size.to_f / per_page.to_i).ceil
     end
 
-    def self.removeDiacritics (str)
-      $defaultDiacriticsRemovalMap.each_with_index do |val, index|
-        str = str.gsub(val['letters'], val['base'])
-      end
-
-      return str
-    end
-
-    def self.getCategorySlug (headline)
-      headline = removeDiacritics(headline);
-      headline = headline.downcase
-      headline = headline.gsub(/,/, '')
-      headline = headline.gsub(/'/, '')
-      headline = headline.gsub(/&/, ' and ')
-      headline = headline.gsub(/%/, ' percent ')
-      # invalid chars, make into spaces
-      headline = headline.gsub(/[^a-z0-9\s-]/, ' ')
-      # convert multiple spaces/hyphens into one space
-      headline = headline.gsub(/[\s-]+/, ' ').strip
-      # hyphens
-      headline = headline.gsub(/\s/, '-')
-
-      return headline;
-     end
-
     # Determine if category pagination is enabled
     #
     # site - the Jekyll::Site object
@@ -187,7 +187,7 @@ module Jekyll
     def self.paginate_path(site, num_page, category)
       return nil if num_page.nil?
 
-      format = site.config['category_path'].sub(':cat', getCategorySlug(category))
+      format = site.config['category_path'].sub(':cat', Utils::getCategorySlug(category))
       pagePath = site.config['category_page_path'] ? site.config['category_page_path'] : "page:num"
 
       if num_page > 1
@@ -345,3 +345,5 @@ $defaultDiacriticsRemovalMap = [
   {'base' => 'y','letters' => /[\u0079\u24E8\uFF59\u1EF3\u00FD\u0177\u1EF9\u0233\u1E8F\u00FF\u1EF7\u1E99\u1EF5\u01B4\u024F\u1EFF]/},
   {'base' => 'z','letters' => /[\u007A\u24E9\uFF5A\u017A\u1E91\u017C\u017E\u1E93\u1E95\u01B6\u0225\u0240\u2C6C\uA763]/}
 ]
+
+Liquid::Template.register_filter Jekyll::Utils
