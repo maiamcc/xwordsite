@@ -92,7 +92,7 @@ I recharge best away from a screen, but here are some toy apps and pet projects 
 
 <div class="project">
     <p>
-        <h3><a href="//github.com/maiamcc/gravity" target="_blank">Gravity</a> (<a href="/projects/gravity/play.html">play it!</a>)</h3><h4>(Javascript, <a href="//codeheartjs.com" target="_blank">codeheart.js</a>)</h4>
+        <h3><a href="//github.com/maiamcc/gravity" target="_blank">Gravity</a> (<a href="/gravity">play it!</a>)</h3><h4>(Javascript, <a href="//codeheartjs.com" target="_blank">codeheart.js</a>)</h4>
     </p>
         <strong>What</strong>: a gravity-bending platformer exhibiting the finest of programmer art, written for the 2014 Williams College Game Jam. Want to know more? <a href="/projects/gravity/play.html">Play it here</a>!
     </p>
