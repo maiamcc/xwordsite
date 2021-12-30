@@ -1,3 +1,12 @@
+- title: "A Festivus for the Rest of Us"
+  dimensions: 15x15
+  slug: festivus
+  day_of_week: Tuesday
+  notes: In the spirit of the season, here's some nonsense that I pulled out of my ass. Enjoy! (Thanks to <a href="https://www.chrispiuma.com/crosswords" target="_blank">Chris Piuma</a> for beta-testing.)
+  date: December 2021
+  squares_io_id: goy76zpr5vroouc6a9ob
+  hide: true
+
 - title: "All Bodies Are Beach Bodies [Midi]"
   dimensions: 11x11
   slug: beachbodies
@@ -35,5 +44,4 @@
   notes: My very first completed crossword, and a very niche one at that. <strong>Should only be attempted by contradancers</strong>. Created with <a href="http://www.keiranking.com/phil/" target="_blank">Phil</a>, a free crossword creator by Keiran King. There are lots of things I'd do differently now, but hey, it's my first puzzle!
   date: Nov. 2019
   squares_io_id: grhco296rw42dncpdo3q
-
 

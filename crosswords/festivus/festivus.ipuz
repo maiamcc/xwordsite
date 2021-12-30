@@ -1,0 +1,896 @@
+{
+  "copyright": "© 2021",
+  "solution": [
+    [
+      "C",
+      "H",
+      "O",
+      "S",
+      "E",
+      "#",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#",
+      "D",
+      "M",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "H",
+      "A",
+      "S",
+      "T",
+      "E",
+      "#",
+      "S",
+      "L",
+      "E",
+      "D",
+      "#",
+      "O",
+      "U",
+      "T",
+      "O",
+      "F"
+    ],
+    [
+      "I",
+      "T",
+      "C",
+      "A",
+      "N",
+      "#",
+      "K",
+      "O",
+      "N",
+      "G",
+      "#",
+      "T",
+      "S",
+      "A",
+      "R",
+      "S"
+    ],
+    [
+      "C",
+      "H",
+      "A",
+      "G",
+      "S",
+      "A",
+      "M",
+      "G",
+      "A",
+      "Y",
+      "A",
+      "C",
+      "H",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "A",
+      "R",
+      "#",
+      "#",
+      "N",
+      "E",
+      "S",
+      "#",
+      "#",
+      "P",
+      "O",
+      "U",
+      "C",
+      "H",
+      "Y"
+    ],
+    [
+      "S",
+      "I",
+      "R",
+      "K",
+      "A",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "M",
+      "#",
+      "H",
+      "I",
+      "T"
+    ],
+    [
+      "T",
+      "R",
+      "O",
+      "O",
+      "P",
+      "#",
+      "H",
+      "U",
+      "M",
+      "O",
+      "R",
+      "#",
+      "D",
+      "E",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "E",
+      "R",
+      "R",
+      "Y",
+      "F",
+      "I",
+      "S",
+      "T",
+      "M",
+      "A",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "C",
+      "E",
+      "D",
+      "#",
+      "A",
+      "M",
+      "O",
+      "R",
+      "E",
+      "#",
+      "I",
+      "M",
+      "H",
+      "E",
+      "P"
+    ],
+    [
+      "O",
+      "E",
+      "R",
+      "#",
+      "I",
+      "N",
+      "N",
+      "#",
+      "#",
+      "#",
+      "L",
+      "I",
+      "A",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "M",
+      "O",
+      "O",
+      "S",
+      "H",
+      "U",
+      "#",
+      "#",
+      "I",
+      "R",
+      "A",
+      "#",
+      "#",
+      "R",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "H",
+      "A",
+      "P",
+      "P",
+      "Y",
+      "N",
+      "E",
+      "W",
+      "Q",
+      "U",
+      "E",
+      "E",
+      "R"
+    ],
+    [
+      "S",
+      "A",
+      "L",
+      "A",
+      "D",
+      "#",
+      "C",
+      "A",
+      "S",
+      "T",
+      "#",
+      "U",
+      "N",
+      "C",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "R",
+      "T",
+      "#",
+      "P",
+      "E",
+      "P",
+      "A",
+      "#",
+      "I",
+      "T",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "T",
+      "A",
+      "I",
+      "K",
+      "O",
+      "#",
+      "S",
+      "L",
+      "O",
+      "G",
+      "#",
+      "T",
+      "O",
+      "T",
+      "E",
+      "S"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      "#",
+      6,
+      7,
+      8,
+      9,
+      "#",
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    [
+      15,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      16,
+      0,
+      0,
+      0,
+      "#",
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      19,
+      0,
+      0,
+      0,
+      "#",
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      0,
+      0,
+      0,
+      0,
+      22,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      24,
+      0,
+      0,
+      "#",
+      "#",
+      25,
+      0,
+      0,
+      "#",
+      "#",
+      26,
+      0,
+      0,
+      27,
+      28,
+      29
+    ],
+    [
+      30,
+      0,
+      0,
+      31,
+      32,
+      0,
+      "#",
+      "#",
+      "#",
+      33,
+      0,
+      0,
+      "#",
+      34,
+      0,
+      0
+    ],
+    [
+      35,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      36,
+      37,
+      38,
+      0,
+      0,
+      "#",
+      39,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      40,
+      0,
+      0,
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      42,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      43,
+      44,
+      0,
+      0,
+      "#",
+      45,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      46,
+      0,
+      0,
+      47,
+      48
+    ],
+    [
+      49,
+      0,
+      0,
+      "#",
+      50,
+      0,
+      0,
+      "#",
+      "#",
+      "#",
+      51,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      52,
+      0,
+      0,
+      53,
+      0,
+      0,
+      "#",
+      "#",
+      54,
+      55,
+      0,
+      "#",
+      "#",
+      56,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      57,
+      0,
+      0,
+      58,
+      59,
+      0,
+      0,
+      0,
+      60,
+      61,
+      0,
+      0,
+      0
+    ],
+    [
+      62,
+      63,
+      64,
+      0,
+      0,
+      "#",
+      65,
+      0,
+      0,
+      0,
+      "#",
+      66,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      67,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      68,
+      0,
+      0,
+      0,
+      "#",
+      69,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      70,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      71,
+      0,
+      0,
+      0,
+      "#",
+      72,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "A Festivus for the Rest of Us",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 16,
+    "height": 15
+  },
+  "clues": {
+    "Across": [
+      [
+        1,
+        "Decided"
+      ],
+      [
+        6,
+        "Up to the task"
+      ],
+      [
+        10,
+        "In a private conversation, on Twitter"
+      ],
+      [
+        15,
+        "Something to make in a hurry?"
+      ],
+      [
+        16,
+        "A dining hall tray, in a pinch"
+      ],
+      [
+        17,
+        "Lacking, as a store"
+      ],
+      [
+        18,
+        "\"This model is capable of that\""
+      ],
+      [
+        19,
+        "Empire State Building climber, for short"
+      ],
+      [
+        20,
+        "Bygone Russian rulers"
+      ],
+      [
+        21,
+        "Winter wishes for Harvey Fierstein?"
+      ],
+      [
+        24,
+        "It's sometimes bent in conversation"
+      ],
+      [
+        25,
+        "Super Mario Bros. console"
+      ],
+      [
+        26,
+        "Baggy"
+      ],
+      [
+        30,
+        "Boorish Round Table Knight"
+      ],
+      [
+        33,
+        "Fugitive's flight"
+      ],
+      [
+        34,
+        "Popular song"
+      ],
+      [
+        35,
+        "Scout unit"
+      ],
+      [
+        36,
+        "Blood or phlegm, for instance"
+      ],
+      [
+        39,
+        "Monopoly holding"
+      ],
+      [
+        40,
+        "Winter wishes for Jiz Lee?"
+      ],
+      [
+        43,
+        "Made like Alan Cumming at the Kit Kat Club"
+      ],
+      [
+        45,
+        "Emotion that's not an eel (though I see how you might get confused)"
+      ],
+      [
+        46,
+        "The \"how do you do, fellow kids?\" of the 50s"
+      ],
+      [
+        49,
+        "Star-Spangled contraction"
+      ],
+      [
+        50,
+        "It was full on December 24th, apparently"
+      ],
+      [
+        51,
+        "Act as a go-between"
+      ],
+      [
+        52,
+        "Chinese restaurant sound-alike of 11-down"
+      ],
+      [
+        54,
+        "Glass house resident?"
+      ],
+      [
+        56,
+        "GPS recommendation"
+      ],
+      [
+        57,
+        "Winter wishes for Judith Butler?"
+      ],
+      [
+        62,
+        "Something a woman might laugh alone with"
+      ],
+      [
+        65,
+        "The players of a play"
+      ],
+      [
+        66,
+        "Cry of surrender"
+      ],
+      [
+        67,
+        "With it"
+      ],
+      [
+        68,
+        "Salt companion, in hip hop"
+      ],
+      [
+        69,
+        "Ltrs. for some book titles"
+      ],
+      [
+        70,
+        "Japanese drum"
+      ],
+      [
+        71,
+        "Arduous journey"
+      ],
+      [
+        72,
+        "\"For sure!\""
+      ]
+    ],
+    "Down": [
+      [
+        1,
+        "Most stylish"
+      ],
+      [
+        2,
+        "Unfortunate baseball cap consequence"
+      ],
+      [
+        3,
+        "Activist arch-bishop"
+      ],
+      [
+        4,
+        "___ weekend (bachelor party, across the pond)"
+      ],
+      [
+        5,
+        "Ends of days, poetically"
+      ],
+      [
+        6,
+        "\"___ Anything\" (popular Reddit feature)"
+      ],
+      [
+        7,
+        "Captain Awkward and Smitten Kitchen, for two"
+      ],
+      [
+        8,
+        "Headey of \"Imagine Me and You\""
+      ],
+      [
+        9,
+        "Tough, cool, and out-there\u2014or at least, trying to be"
+      ],
+      [
+        10,
+        "Boom that busted in the early aughts"
+      ],
+      [
+        11,
+        "Dragon soundalike to 52-across"
+      ],
+      [
+        12,
+        "\"___ gril!\" (legendary Cake Wreck)"
+      ],
+      [
+        13,
+        "Negative logical operator"
+      ],
+      [
+        14,
+        "Janelle Monáe and Tessa Thompson to each other (presumably), briefly"
+      ],
+      [
+        22,
+        "Whichever"
+      ],
+      [
+        23,
+        "Separate"
+      ],
+      [
+        27,
+        "He's all smiles!"
+      ],
+      [
+        28,
+        "Hurry"
+      ],
+      [
+        29,
+        "Since Jan."
+      ],
+      [
+        31,
+        "Down for the count"
+      ],
+      [
+        32,
+        "Common Pesach mo."
+      ],
+      [
+        33,
+        "Take an L"
+      ],
+      [
+        36,
+        "\"Abide With Me\", for one"
+      ],
+      [
+        37,
+        "Conspiracy theory subj."
+      ],
+      [
+        38,
+        "\"Komm Gib ___ Deine Hand\" (Beatles single)"
+      ],
+      [
+        39,
+        "Caballero's partner"
+      ],
+      [
+        41,
+        "Accumulated, as a bar tab"
+      ],
+      [
+        42,
+        "Customizable video game avatar first introduced in 2006"
+      ],
+      [
+        43,
+        "Tattoo letters frequently found on a heart"
+      ],
+      [
+        44,
+        "Jobs at Apple, e.g."
+      ],
+      [
+        47,
+        "This rapper is a Gem"
+      ],
+      [
+        48,
+        "Lady of rank"
+      ],
+      [
+        50,
+        "\"It was necessary\""
+      ],
+      [
+        51,
+        "Subject for Sotomayor"
+      ],
+      [
+        53,
+        "Bruce in Finding Nemo, for one"
+      ],
+      [
+        54,
+        "Idea seeds on social media, perhaps"
+      ],
+      [
+        55,
+        "Get again during a schoolyard game"
+      ],
+      [
+        58,
+        "MDs who give annual physicals"
+      ],
+      [
+        59,
+        "Biblical heroine who really drove her point home to Holofernes"
+      ],
+      [
+        60,
+        "Give one's notice"
+      ],
+      [
+        61,
+        "\"For ___ us a child is born...\""
+      ],
+      [
+        62,
+        "ACT alternative"
+      ],
+      [
+        63,
+        "In the style of"
+      ],
+      [
+        64,
+        "Hawaiian wreath"
+      ]
+    ]
+  }
+}
