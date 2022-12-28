@@ -1,0 +1,238 @@
+{
+  "copyright": "© McCormick / Sittig-Boyd / Runyan / Lubelski 2022",
+  "solution": [
+    [
+      "P",
+      "S",
+      "P",
+      "#",
+      "K",
+      "I",
+      "T"
+    ],
+    [
+      "A",
+      "P",
+      "E",
+      "#",
+      "I",
+      "D",
+      "A"
+    ],
+    [
+      "D",
+      "A",
+      "T",
+      "A",
+      "D",
+      "O",
+      "G"
+    ],
+    [
+      "#",
+      "#",
+      "U",
+      "P",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "O",
+      "N",
+      "I",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "N",
+      "I",
+      "#",
+      "O",
+      "R",
+      "S"
+    ],
+    [
+      "Y",
+      "T",
+      "A",
+      "#",
+      "Y",
+      "E",
+      "S"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "EC Platform and Friends",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      "#",
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      0,
+      0,
+      "#",
+      8,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      11,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      12,
+      13,
+      0,
+      0,
+      0,
+      14,
+      15
+    ],
+    [
+      16,
+      0,
+      0,
+      "#",
+      17,
+      0,
+      0
+    ],
+    [
+      18,
+      0,
+      0,
+      "#",
+      19,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "EC Platform Office Hours Writes a Crossword",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 7,
+    "height": 7
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Word after \"launch\" or \"crash\""
+      ],
+      [
+        2,
+        "BFF counterpart that's surprisingly not relaxing"
+      ],
+      [
+        3,
+        "Pretty pink flower"
+      ],
+      [
+        4,
+        "Matt Lee might find one on his floor"
+      ],
+      [
+        5,
+        "Words you don't get to if someone shouts \"I object!\""
+      ],
+      [
+        6,
+        "Bit of metadata"
+      ],
+      [
+        10,
+        "See 9A"
+      ],
+      [
+        12,
+        "International Workers Day month"
+      ],
+      [
+        13,
+        "Like many trans dudes"
+      ],
+      [
+        14,
+        "Final Fantasy XIV or Catan resource"
+      ],
+      [
+        15,
+        "Protocol underlying Google Reader (RIP)"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "HR rep, perhaps"
+      ],
+      [
+        4,
+        "Kat's other half"
+      ],
+      [
+        7,
+        "Not a direct ancestor of a human, actually"
+      ],
+      [
+        8,
+        "Journalist Wells"
+      ],
+      [
+        9,
+        "Platform on which you can write 12As for your 10D"
+      ],
+      [
+        11,
+        "Shipping team integ."
+      ],
+      [
+        12,
+        "See 9A"
+      ],
+      [
+        16,
+        "Queer icon rocker DiFranco"
+      ],
+      [
+        17,
+        "||s"
+      ],
+      [
+        18,
+        "Reddit verdict (abbr.)"
+      ],
+      [
+        19,
+        "Affirmation"
+      ]
+    ]
+  }
+}
