@@ -6,8 +6,10 @@ sidebar: true
 <script src="/assets/javascripts/hide_puzzles.js"></script>
 I write crossword puzzles sometimes (using <a href="http://beekeeperlabs.com/crossfire/" target="_blank">Crossfire</a>).
 
+{% assign puzzles = site.data.crosswords | where: 'dont_index', empty %}
+
 <div class="puzzle-container">
-    {% for puzzle in site.data.crosswords %}
+    {% for puzzle in puzzles %}
         <div class="puzzle{% if puzzle.hide %} hidden{% endif %}">
             <h3 class="title">
                 <a href="/crosswords/{{puzzle.slug}}.html">{{ puzzle.title }}</a>

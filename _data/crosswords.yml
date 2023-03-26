@@ -4,7 +4,7 @@
   notes: A silly puzzle for work!
   date: December 2022
   squares_io_id: vj8mkksgzr2pd2fskbq6
-  hide: true
+  dont_index: true
 
 - title: "A Festivus for the Rest of Us"
   dimensions: 15x15
