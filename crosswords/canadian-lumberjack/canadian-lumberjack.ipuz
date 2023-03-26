@@ -1,0 +1,214 @@
+{
+  "copyright": "© Maia McCormick, 2023",
+  "solution": [
+    [
+      "I",
+      "M",
+      "G",
+      "A",
+      "Y",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "A",
+      "I",
+      "V",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "R",
+      "O",
+      "L",
+      "L",
+      "A"
+    ],
+    [
+      "E",
+      "R",
+      "A",
+      "#",
+      "L",
+      "A",
+      "N"
+    ],
+    [
+      "L",
+      "I",
+      "F",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "#",
+      "F",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "A",
+      "G",
+      "E",
+      "R"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      "#",
+      "#"
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0,
+      8,
+      9
+    ],
+    [
+      10,
+      0,
+      0,
+      "#",
+      11,
+      0,
+      0
+    ],
+    [
+      12,
+      0,
+      0,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      15,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "That Canadian Lumberjack on TikTok, Tho!!!",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 7,
+    "height": 7
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "One who can't get any, perhaps"
+      ],
+      [
+        2,
+        "Ethnicity for many in the Locked Tomb universe"
+      ],
+      [
+        3,
+        "Animal that, while technically Kosher (the best kind of Kosher!), would be exceedingly impractical to shecht"
+      ],
+      [
+        4,
+        "Kind of toast, slangily"
+      ],
+      [
+        5,
+        "\"I don't know what we're __ about!\""
+      ],
+      [
+        8,
+        "Actor Reddick of The Wire and Lost"
+      ],
+      [
+        9,
+        "Piss off"
+      ],
+      [
+        13,
+        "Gossip, to some"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "Anguished cry from some viewing the Canadian lumberjack's TikToks"
+      ],
+      [
+        6,
+        "Not worldly-wise"
+      ],
+      [
+        7,
+        "Toyota model"
+      ],
+      [
+        10,
+        "\"'I'm in my slut __,' I whisper to myself as I try to decide who to romance in Stardew Valley\""
+      ],
+      [
+        11,
+        "Type of party popular with nerds in the late 90s/early 2000s"
+      ],
+      [
+        12,
+        "Getting swole, say"
+      ],
+      [
+        14,
+        "Resell, sometimes"
+      ],
+      [
+        15,
+        "Champing at the bit"
+      ]
+    ]
+  }
+}

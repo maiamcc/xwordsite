@@ -1,0 +1,214 @@
+{
+  "copyright": "© Maia McCormick 2023",
+  "solution": [
+    [
+      "N",
+      "O",
+      "U",
+      "G",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "E",
+      "N",
+      "R",
+      "A",
+      "G",
+      "E",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "I",
+      "G",
+      "E",
+      "N",
+      "#"
+    ],
+    [
+      "S",
+      "S",
+      "N",
+      "#",
+      "S",
+      "S",
+      "A"
+    ],
+    [
+      "#",
+      "P",
+      "A",
+      "P",
+      "A",
+      "I",
+      "N"
+    ],
+    [
+      "#",
+      "O",
+      "R",
+      "E",
+      "G",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "T",
+      "Y",
+      "R",
+      "O",
+      "N",
+      "E"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      "#"
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#"
+    ],
+    [
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#"
+    ],
+    [
+      9,
+      0,
+      0,
+      "#",
+      10,
+      0,
+      11
+    ],
+    [
+      "#",
+      12,
+      0,
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      14,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      15,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Confectionary Filling",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 7,
+    "height": 7
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Catches"
+      ],
+      [
+        2,
+        "Simoleon"
+      ],
+      [
+        3,
+        "Putting the U in UTI"
+      ],
+      [
+        4,
+        "Reflexive response to a throat swab?"
+      ],
+      [
+        5,
+        "Once upon a time"
+      ],
+      [
+        6,
+        "Word after \"sexual\" or before \"headache\""
+      ],
+      [
+        11,
+        "Will's wife, in Avon"
+      ],
+      [
+        13,
+        "Each"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "Confectionary filling"
+      ],
+      [
+        7,
+        "Rile"
+      ],
+      [
+        8,
+        "Model Chrissy"
+      ],
+      [
+        9,
+        "IRS ID"
+      ],
+      [
+        10,
+        "Like much music for treble choirs"
+      ],
+      [
+        12,
+        "Enzyme in papaya that many find offputting"
+      ],
+      [
+        14,
+        "Trailing state?"
+      ],
+      [
+        15,
+        "Stephen __ Colbert"
+      ]
+    ]
+  }
+}
