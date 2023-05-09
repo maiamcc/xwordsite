@@ -1,0 +1,486 @@
+{
+  "copyright": "© Maia McCormick 2023",
+  "solution": [
+    [
+      "L",
+      "O",
+      "A",
+      "N",
+      "#",
+      "E",
+      "F",
+      "F",
+      "E",
+      "C",
+      "T"
+    ],
+    [
+      "A",
+      "B",
+      "L",
+      "E",
+      "#",
+      "S",
+      "A",
+      "I",
+      "L",
+      "O",
+      "R"
+    ],
+    [
+      "G",
+      "A",
+      "L",
+      "S",
+      "#",
+      "T",
+      "E",
+      "X",
+      "T",
+      "M",
+      "E"
+    ],
+    [
+      "E",
+      "M",
+      "I",
+      "T",
+      "S",
+      "#",
+      "#",
+      "I",
+      "O",
+      "T",
+      "A"
+    ],
+    [
+      "R",
+      "A",
+      "N",
+      "#",
+      "P",
+      "L",
+      "A",
+      "N",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "E",
+      "I",
+      "N",
+      "G",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "Y",
+      "O",
+      "C",
+      "U",
+      "E",
+      "#",
+      "G",
+      "O",
+      "P"
+    ],
+    [
+      "O",
+      "R",
+      "E",
+      "O",
+      "#",
+      "#",
+      "W",
+      "A",
+      "R",
+      "I",
+      "O"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "K",
+      "E",
+      "R",
+      "#",
+      "P",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "I",
+      "N",
+      "S",
+      "I",
+      "D",
+      "E",
+      "#",
+      "E",
+      "Y",
+      "E",
+      "S"
+    ],
+    [
+      "L",
+      "A",
+      "T",
+      "E",
+      "S",
+      "T",
+      "#",
+      "D",
+      "A",
+      "R",
+      "E"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      "#",
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    [
+      11,
+      0,
+      0,
+      0,
+      "#",
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      13,
+      0,
+      0,
+      0,
+      "#",
+      14,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      15,
+      0,
+      0,
+      0,
+      16,
+      "#",
+      "#",
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      0,
+      0,
+      "#",
+      19,
+      20,
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      22,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      23,
+      24,
+      25,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      26,
+      27,
+      28
+    ],
+    [
+      29,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      30,
+      31,
+      0,
+      0,
+      0
+    ],
+    [
+      32,
+      0,
+      0,
+      0,
+      33,
+      34,
+      "#",
+      35,
+      0,
+      0,
+      0
+    ],
+    [
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      37,
+      0,
+      0,
+      0
+    ],
+    [
+      38,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      39,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Sappho and her Friend",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 11,
+    "height": 11
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Beverage favored by lumberjacks, perhaps?"
+      ],
+      [
+        2,
+        "\"Thanks, __\" (phrase that might be grumbled by a member of 26A)"
+      ],
+      [
+        3,
+        "Totally committed"
+      ],
+      [
+        4,
+        "Smart thermostat brand"
+      ],
+      [
+        5,
+        "7.2% of the US pop. being LGBT, e.g."
+      ],
+      [
+        6,
+        "Fair folk"
+      ],
+      [
+        7,
+        "Gearing up (with \"to\")"
+      ],
+      [
+        8,
+        "John who wrote \"Can You Feel the Love Tonight\""
+      ],
+      [
+        9,
+        "Mild, semi-hard French cheese"
+      ],
+      [
+        10,
+        "It might be worn on a shoe?"
+      ],
+      [
+        16,
+        "Bit of design info"
+      ],
+      [
+        20,
+        "Lucy of Charlie's Angels"
+      ],
+      [
+        21,
+        "Fresh"
+      ],
+      [
+        22,
+        "He'll take that bet!"
+      ],
+      [
+        23,
+        "Half of an Exxon merger"
+      ],
+      [
+        24,
+        "Gladiator site"
+      ],
+      [
+        25,
+        "Get a rise out of?"
+      ],
+      [
+        26,
+        "Not quite allosexual, perhaps"
+      ],
+      [
+        27,
+        "One who lubricates"
+      ],
+      [
+        28,
+        "Crew"
+      ],
+      [
+        31,
+        "Imitated"
+      ],
+      [
+        33,
+        "Those assembling an anthol."
+      ],
+      [
+        34,
+        "No longer employed (abbr.)"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "It may be taken out or forgiven"
+      ],
+      [
+        5,
+        "Impact"
+      ],
+      [
+        11,
+        "Capable"
+      ],
+      [
+        12,
+        "One on the Atlantic"
+      ],
+      [
+        13,
+        "With 22A and 35A, KStew and Dylan Meyers..."
+      ],
+      [
+        14,
+        "\"Hit me up.\""
+      ],
+      [
+        15,
+        "Lets off"
+      ],
+      [
+        17,
+        "Just a bit"
+      ],
+      [
+        18,
+        "Worked, as a fridge"
+      ],
+      [
+        19,
+        "Like some pregnancies"
+      ],
+      [
+        22,
+        "...or Janelle Monáe and Tessa Thompson..."
+      ],
+      [
+        23,
+        "Heinz Frankensauce"
+      ],
+      [
+        26,
+        "The elephant in the room in the sen.?"
+      ],
+      [
+        29,
+        "__ O's (late 90s sugary breakfast cereal)"
+      ],
+      [
+        30,
+        "Nintendo character with a yellow and purple color scheme"
+      ],
+      [
+        32,
+        "Honeydew companion"
+      ],
+      [
+        35,
+        "...or Sappho and her friend."
+      ],
+      [
+        36,
+        "\"__ man\" (mole)"
+      ],
+      [
+        37,
+        "Emoji sometimes used to express skepticism"
+      ],
+      [
+        38,
+        "Greatest partner?"
+      ],
+      [
+        39,
+        "Truth alternative?"
+      ]
+    ]
+  }
+}
