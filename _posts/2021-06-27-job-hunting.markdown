@@ -86,6 +86,10 @@ Don't neglect this prep! Take the time to outline answers to the common behavior
 
 In particular, it's useful to workshop these answers with a friend/collegue/mentor so that you can cast difficult situations in the best light, make sure you're being honest without being overly critical, etc.
 
+Resources:
+
+* [Jacob Kaplan-Moss: Unpacking Interview Questions](https://jacobian.org/series/unpacking-interview-questions/)
+
 ### Where to Apply
 This advice applies to any job hunt, but *especially* when you've got limited bandwidth because you're still day-jobbing: *if you can afford to be picky with your companies, be picky!* Narrow your options and don't try to play the field---move forward with at most 3 companies you're excited about. (I did 5, that was doable but also pretty stressful).
 
