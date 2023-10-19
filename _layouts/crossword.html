@@ -21,10 +21,11 @@ type: crossword
       {% if page.dimensions %}
         <div class="info dimensions"><em>Dimensions</em>: {{ page.dimensions }}</div>
       {% endif %}
+      <!--
       {% if page.day_of_week %}
         <div class="info difficulty"><em>Approx. difficulty</em>: NYT {{ page.day_of_week }}</div>
       {% endif %}
-
+      -->
       <div class="center">
         <iframe width="800" height="505" allowfullscreen="true" style="border:none;width: 100% !important;position: static;display: block !important;margin: 0 !important;" src="https://squares.io/solve/{{ page.squares_io_id }}?embed=1"></iframe>
       </div>

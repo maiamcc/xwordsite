@@ -20,14 +20,6 @@
   date: March 2023
   squares_io_id: ovbwdhxftprtcv3zv3rb
 
-- title: "EC Platform Office Hours Writes a Crossword"
-  dimensions: 7x7
-  slug: ec
-  notes: A silly puzzle for work!
-  date: December 2022
-  squares_io_id: vj8mkksgzr2pd2fskbq6
-  dont_index: true
-
 - title: "A Festivus for the Rest of Us"
   dimensions: 15x15
   slug: festivus
