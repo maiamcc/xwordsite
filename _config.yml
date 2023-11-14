@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Maia McCormick
-subtitle: "Programmer, writer, nerd"
-description: "The web presence of Maia Remez McCormick, NYC-based programmer, hacker, and jack-of-several-trades."
+title: Crosswords by Maia
+subtitle: "I write puzzles"
+description: "Crossword puzzles by Maia"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://code.maiamccormick.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://crosswords.maiamccormick.com" # the base hostname & protocol for your site, e.g. http://example.com
 subscribe_rss: /atom.xml
 twitter_username: maia_mcc
 titlecase: true
