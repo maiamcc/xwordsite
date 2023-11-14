@@ -1,6 +1,4 @@
 // Navbar
-$head-hov-color: #9E0000;
-$nav-bgcolor: #F2F2F2;
 $nav-font-size: 0.7em;
 
 // Header
@@ -25,7 +23,7 @@ body > header {
   background-size: 100% auto;
   margin-bottom: 10px;
   h1 > a:hover {
-    color: lighten($head-hov-color, 3);
+    color: lighten($nav-color-hover, 3);
   }
 
   // Left hand side of the header
@@ -79,10 +77,10 @@ body > header {
 
       div.spacer {
         height: 7px;
-        border-left: 2px solid $nav-bgcolor;
+        border-left: 2px solid $nav-bg;
       }
       div.selected {
-        background-color: $nav-bgcolor;
+        background-color: $nav-bg;
         @include rounded(top, right);
         @include rounded(bottom, right);
         display: inline;
@@ -91,25 +89,25 @@ body > header {
           top: 3px;
         }
         a {
-          color: $head-hov-color;
+          color: $nav-color-hover;
         }
       }
       li {
         list-style: none;
-        border-left: 2px solid $nav-bgcolor;
+        border-left: 2px solid $nav-bg;
         display: inline;
         padding: 3px 15px;
         a {
           text-decoration: none;
-          color: #f2f2f2;
+          color: $nav-color;
           width: 100%;
         }
         &:hover {
-          background-color: $nav-bgcolor;
+          background-color: $nav-bg;
           @include rounded(top, right);
           @include rounded(bottom, right);
           a {
-            color: $head-hov-color;
+            color: $nav-color-hover;
           }
         }
       }
