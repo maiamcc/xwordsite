@@ -8,7 +8,7 @@
 	@include border-shadow();
 	&:hover{
 		a{
-			color: $color-main;
+			color: $primary;
 		}
 	}
 	a{

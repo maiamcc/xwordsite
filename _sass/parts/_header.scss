@@ -19,7 +19,7 @@ $header-height: 30px;
 		color: $color-gray01;
 		transition: color 0.3s;
 		&:hover{
-			color: $color-main;
+			color: $primary;
 			border-bottom:none;
 		}
 	}
@@ -68,7 +68,7 @@ $header-height: 30px;
 			}
 			&:hover{
 				>a{
-					color: $color-main;
+					color: $primary;
 					border-bottom:none;
 				}
 			}
@@ -110,7 +110,7 @@ $header-height: 30px;
 				border-radius: 0 5px 5px 5px;
 			}
 			li{
-				border-shadow: $color-background, $color-gray03;
+				border-shadow: $main-bg, $color-gray03;
 				&:hover{
 					background: #d5d5d5;
 				}
