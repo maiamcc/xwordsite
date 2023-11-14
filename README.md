@@ -13,3 +13,4 @@ To generate and deploy the site, run `deploy.sh`.
 [] retheme
 	[] colors
 	[] fonts
+	[] header height at smaller widths

@@ -17,10 +17,12 @@ $header-sep-color: #888;
   -webkit-border-#{$topBot}-#{$side}-radius: $radius;
 }
 
+
 body > header {
   padding-bottom: 0;
   padding-top: 0;
-  background:url('/images/shatter_dark.png');
+  background: url('/images/puzzlebg.jpg') center repeat-y;
+  background-size: 100% auto;
   margin-bottom: 10px;
   h1 > a:hover {
     color: lighten($head-hov-color, 3);
