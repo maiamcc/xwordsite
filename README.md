@@ -6,8 +6,6 @@ It's built with [Jekyll](https://jekyllrb.com/) on top of the [classic-martinb](
 
 To preview the site, run `bundle exec jekyll serve` and navigate to `http://localhost:4000/`.
 
-To generate and deploy the site, run `deploy.sh`.
-
 ## TODO
 - [ ] retheme
 	- [x] colors
