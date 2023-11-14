@@ -9,9 +9,9 @@ To preview the site, run `bundle exec jekyll serve` and navigate to `http://loca
 To generate and deploy the site, run `deploy.sh`.
 
 ## TODO
-[] instead of a data yml, make each crossword a "post" so that they can be RSS'd
-[] retheme
-	[x] colors
-	[] fonts
-	[] header height at smaller widths
-[] responsive
+- [ ] retheme
+	- [x] colors
+	- [ ] fonts
+	- [ ] header height at smaller widths
+- [ ] responsive
+- [ ] instead of a data yml, make each crossword a "post" so that they can be RSS'd, tagged etc.
