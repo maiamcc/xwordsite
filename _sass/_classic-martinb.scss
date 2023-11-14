@@ -8,6 +8,7 @@ $header-left-width-wide: 80%;
 $header-sep-color: #FFFFFF;
 $header-sep-height: 10px;
 $header-sep-color: #888;
+$header-border-radius: 25px;
 
 @mixin rounded($topBot, $side, $radius: 10px) {
   border-#{$topBot}-#{$side}-radius: $radius;
@@ -18,12 +19,17 @@ $header-sep-color: #888;
 
 body > header {
   padding-bottom: 0;
-  padding-top: 0;
+  padding-top: 1em;
   background: url('/images/puzzlebg.jpg') center repeat-y;
   background-size: 100% auto;
   margin-bottom: 10px;
-  h1 > a:hover {
-    color: lighten($nav-color-hover, 3);
+  h1 {
+    background: rgba($tertiary, 0.7);
+    border-radius: $header-border-radius;
+    padding: 5px 10px 5px 10px;
+    a:hover {
+      color: lighten($nav-color-hover, 3);
+    }
   }
 
   // Left hand side of the header
@@ -71,9 +77,12 @@ body > header {
     overflow: auto;
     font-size: $nav-font-size;
     ul.main-navigation {
+      background: rgba($tertiary, 0.7);
+      border-radius: $header-border-radius;
+      padding: 20px;
+
       float:left;
       display: inline;
-      margin-top: 20px;
 
       div.spacer {
         height: 7px;

@@ -2,6 +2,7 @@
 layout: page
 title: "Crosswords By Maia"
 sidebar: false
+no_header: true
 ---
 <script src="/assets/javascripts/hide_puzzles.js"></script>
 I write crossword puzzles sometimes (using <a href="http://beekeeperlabs.com/crossfire/" target="_blank">Crossfire</a>).
