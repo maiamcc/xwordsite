@@ -11,6 +11,7 @@ To generate and deploy the site, run `deploy.sh`.
 ## TODO
 [] instead of a data yml, make each crossword a "post" so that they can be RSS'd
 [] retheme
-	[] colors
+	[x] colors
 	[] fonts
 	[] header height at smaller widths
+[] responsive

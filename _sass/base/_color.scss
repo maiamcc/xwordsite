@@ -2,12 +2,11 @@ $noise-bg: url('/images/noise.png') top left !default;
 $img-border: url('/images/dotted-border.png') !default;
 
 // Custom Colors
-$primary: #2081C3;
-$secondary: #00BFB2;
+$primary: #175D8C;
+$secondary: #D36582;
 $tertiary: #E2CFAC;
 $quaternary: #524E47;
 $background: #F0EEE8;
-$dark-red: #9E0000;
 
 $color-gray01: #333 !default;
 $color-gray02: #999 !default;
@@ -28,7 +27,7 @@ $article-border: #eeeeee !default;
 
 $header-bg: $background !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: darken($primary, 10) !default;
+$title-color: $primary !default;
 $subtitle-color: $background;
 
 $text-color: $quaternary !default;
@@ -40,7 +39,7 @@ $nav-bg: $secondary !default;
 $nav-bg-front: $noise-bg !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
 $nav-color: $quaternary !default;
-$nav-color-hover: darken($nav-color, 25) !default;
+$nav-color-hover: darken($nav-color, 10) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 $nav-border: darken($nav-bg, 10) !default;
 $nav-border-top: lighten($nav-bg, 15) !default;
@@ -51,7 +50,7 @@ $nav-border-right: lighten($nav-bg, 7) !default;
 /* Sidebar colors */
 $sidebar-bg: #f2f2f2 !default;
 $sidebar-link-color: $link-color !default;
-$sidebar-link-color-hover: $dark-red;
+$sidebar-link-color-hover: $link-color-hover;
 $sidebar-link-color-active: $link-color-active !default;
 $sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
 $sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
