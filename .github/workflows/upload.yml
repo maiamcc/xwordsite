@@ -1,0 +1,79 @@
+---
+name: Upload
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::648729606310:role/ecr-maiamcc-xwordsite-uploader
+          role-session-name: xwords-upload
+          aws-region: us-east-1
+      -
+        name: Login to Amazon ECR Private
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Build Container Image
+        shell: bash
+        run: |-
+          set -eu -o pipefail -x
+
+          export DOCKER_BUILDKIT=1
+          export ECR_REGISTRY_URI='648729606310.dkr.ecr.us-east-1.amazonaws.com'
+          export ECR_REPOSITORY_URI="${ECR_REGISTRY_URI}/${GITHUB_REPOSITORY}"
+          export GITHUB_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
+
+          declare -a docker_args=(
+              '--progress=plain'
+              '--file=container/Dockerfile'
+              '--build-arg=BUILDKIT_INLINE_CACHE=1'
+              '--target=image'
+          )
+
+          declare -a tags=("${GITHUB_SHA::12}" "${GITHUB_BRANCH}" 'latest')
+
+          declare tag
+          for tag in "${tags[@]}"; do
+              docker_args+=(
+                  "--cache-from=${ECR_REPOSITORY_URI}:${tag}"
+                  "--tag=${ECR_REPOSITORY_URI}:${tag}"
+              )
+          done
+
+          export GITHUB_REPOSITORY_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"
+
+          docker_args+=(
+              "--label=org.opencontainers.image.created=$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+              "--label=org.opencontainers.image.description=Crossword puzzles by Maia"
+              "--label=org.opencontainers.image.documentation=${GITHUB_REPOSITORY_URL}/blob/${GITHUB_BRANCH}/README.md"
+              # "--label=org.opencontainers.image.licenses="
+              "--label=org.opencontainers.image.revision=${GITHUB_SHA::12}"
+              "--label=org.opencontainers.image.source=${GITHUB_REPOSITORY_URL}"
+              "--label=org.opencontainers.image.title=Crosswords by Maia"
+              "--label=org.opencontainers.image.url=https://crosswords.maiamccormick.com"
+              "--label=org.opencontainers.image.vendor=XzJe"
+              # "--label=org.opencontainers.image.version="
+          )
+
+          docker build "${docker_args[@]}" .
+
+          for tag in "${tags[@]}"; do
+              docker push "${ECR_REPOSITORY_URI}:${tag}"
+          done

@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+set -e -o pipefail -x
+
+declare -a healthcheck_response=()
+mapfile -d$'\n' -t healthcheck_response < <(
+    netcat -w3 0.0.0.0 -C 8080 <<'EOF' | tr -d $'\r'
+HEAD /_/lighttpd/status HTTP/1.1
+Host: localhost:8080
+User-Agent: netcat/1.219
+accept: */*
+
+EOF
+)
+
+test "${healthcheck_response[0]}" = 'HTTP/1.1 200 OK'
