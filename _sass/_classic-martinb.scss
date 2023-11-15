@@ -74,6 +74,7 @@ body > header {
   // -The navigation menu has been moved from under the header
   // to residing inside it
   div.header-right {
+    visibility: hidden; // HIDE UNTIL I GET IT RESPONSIVE
     overflow: auto;
     font-size: $nav-font-size;
     ul.main-navigation {
