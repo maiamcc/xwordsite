@@ -27,8 +27,9 @@ body > header {
     background: rgba($tertiary, 0.7);
     border-radius: $header-border-radius;
     padding: 5px 10px 5px 10px;
+    color: $title-color;
     a:hover {
-      color: lighten($nav-color-hover, 3);
+      color: $title-color-hover;
     }
   }
 

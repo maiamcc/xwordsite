@@ -2,8 +2,9 @@ $noise-bg: url('/images/noise.png') top left !default;
 $img-border: url('/images/dotted-border.png') !default;
 
 // Custom Colors
-$primary: #175D8C;
-$secondary: #D36582;
+// https://coolors.co/0b717a-b4a0e5-e2cfac-524e47-f0eee8
+$primary: #0B717A;
+$secondary: #B4A0E5;
 $tertiary: #E2CFAC;
 $quaternary: #524E47;
 $background: #F0EEE8;
@@ -28,6 +29,7 @@ $article-border: #eeeeee !default;
 $header-bg: $background !default;
 $header-border: lighten($header-bg, 15) !default;
 $title-color: $primary !default;
+$title-color-hover: lighten($primary, 10) !default;
 $subtitle-color: $background;
 
 $text-color: $quaternary !default;
