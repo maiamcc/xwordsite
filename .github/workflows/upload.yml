@@ -77,3 +77,15 @@ jobs:
           for tag in "${tags[@]}"; do
               docker push "${ECR_REPOSITORY_URI}:${tag}"
           done
+      -
+        name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::648729606310:role/xwordsite-manager
+          role-session-name: xwordsite-restart
+          aws-region: us-east-1
+      -
+        name: Restart ECS Service
+        shell: bash
+        run: >-
+          aws ecs update-service --cluster primary --service xwordsite --force-new-deployment
