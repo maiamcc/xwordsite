@@ -9,7 +9,11 @@ To preview the site, run `bundle exec jekyll serve` and navigate to `http://loca
 ## TODO
 - [ ] retheme
 	- [x] colors
+	- [x] favicon
 	- [ ] fonts
 	- [ ] header height at smaller widths
-- [ ] responsive
-- [ ] instead of a data yml, make each crossword a "post" so that they can be RSS'd, tagged etc.
+- [ ] responsive nav
+	- NB: currently nav is just hidden on small widths b/c there's nothing interesting elsewhere on the site yet.
+- [ ] subscribable
+	- [ ] mailing list signup form
+	- [ ] instead of a data yml, make each crossword a "post" so that they can be RSS'd, tagged etc.

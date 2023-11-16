@@ -74,9 +74,18 @@ body > header {
   // -The navigation menu has been moved from under the header
   // to residing inside it
   div.header-right {
-    visibility: hidden; // HIDE UNTIL I GET IT RESPONSIVE
     overflow: auto;
     font-size: $nav-font-size;
+
+    // on mobile/tiny screens, use different nav
+    @media only screen and (min-width: 230px) {
+      visibility: hidden;
+    }
+    @media only screen and (min-width: 530px) {
+      visibility: visible;
+    }
+
+
     ul.main-navigation {
       background: rgba($tertiary, 0.7);
       border-radius: $header-border-radius;

@@ -5,7 +5,7 @@ sidebar: false
 no_header: true
 ---
 <script src="/assets/javascripts/hide_puzzles.js"></script>
-I write crossword puzzles sometimes (using <a href="http://beekeeperlabs.com/crossfire/" target="_blank">Crossfire</a>).
+Here's where I post my crossword puzzles. Have a solve and enjoy!
 
 {% assign puzzles = site.data.crosswords | where: 'dont_index', empty %}
 
