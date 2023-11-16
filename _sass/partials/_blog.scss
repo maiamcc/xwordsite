@@ -50,7 +50,8 @@ article {
   img, video, .flash-video {
     @extend .flex-content;
     @extend .basic-alignment;
-    @include shadow-box;
+    @include shadow-box($secondary .5em solid, rgba($quaternary, 1) 0 1px 4px, .3em);
+
   }
   video, .flash-video { margin: 0 0 1.5em; }
   video { display: block; width: 100%; }
