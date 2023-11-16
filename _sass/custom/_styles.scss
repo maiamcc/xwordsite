@@ -135,7 +135,7 @@ html {
 
     #mc_embed_signup_scroll {
       .asterisk {
-        color: $secondary;
+        color: $error;
       }
 
       .helper_text {
@@ -160,10 +160,10 @@ html {
       }
 
       div.mce_inline_error {
-        color: $secondary;
+        color: $error;
       }
       input.mce_inline_error {
-        border-color: $secondary !important;
+        border-color: $error !important;
       }
     }
   }
