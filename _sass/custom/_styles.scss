@@ -1,12 +1,6 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-$color-windmill: #315D46;
-
-.singlespaced p{
-  margin: 0;
-}
-
 .caption {
   text-align: center;
   font-size: 77%;
@@ -84,33 +78,6 @@ html {
        }
   }
 
-  .project {
-    margin-bottom: 1.5em;
-    .heading {
-      margin-bottom: 0;
-    }
-    @media only screen and (min-width: 480px) {
-      .heading{
-        display: inline-block;
-      }
-      h3 {
-        width: 50%;
-      }
-      h4 {
-        width: 50%;
-        text-align: right;
-      }
-    }
-    p {
-      margin-bottom: 0.2em;
-    }
-  }
-
-  .windmill {
-    color: $color-windmill !important;
-    font-weight: bold;
-  }
-
 
 // RSS and Search
 @mixin mask-subscription-nav($feed: 'rss.png'){
@@ -146,40 +113,49 @@ html {
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }
 
-form {
-    background-clip: padding-box;
-    margin: 0; padding: 0;
-    .search {
-      padding: .3em .5em 0;
-      margin: .2em 0 0 0;
-      font-size: .85em;
-      font-family: $sans;
-      line-height: 1.1em;
-      width: 95%;
-      border-radius: .5em;
-      background-clip: padding-box;
-      box-shadow: lighten($nav-bg, 2) 0 1px;
-      background-color: lighten($nav-bg, 15);
-      border: 1px solid $nav-border;
-      color: #888;
-      &:focus {
-        color: #444;
-        border-color: #80b1df;
-        box-shadow: #80b1df 0 0 4px, #80b1df 0 0 3px inset;
-        background-color: #fff;
-        outline: none;
-      }
-    }
+// ^ ^ ^ The above was ported from code.maiamccormick.com, unsure if it's still needed ^ ^ ^
+// Styles specific to crosswords.maiamccormick.com are below
+
+// email subscription inset
+#email-subscription {
+  width: 300px;
+  float: right;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+  background-color: $tertiary;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 750px) {
+    float: none;
   }
 
-.red {
-  background-color: #FF0000;
-}
+  #email-subscription-content {
+    border: 5px double $secondary;
 
-.green {
-  background-color: #00FF00;
-}
+    #mc_embed_signup_scroll {
+      .asterisk {
+        color: $secondary;
+      }
 
-.cyan {
-  background-color: #00FFFF;
+      .helper-text {
+        background-color: lighten($tertiary, 10);
+      }
+
+      input {
+        background-color: $tertiary;
+
+        .mce_inline_error {
+          border: 2px solid $secondary;
+        }
+
+      }
+
+      div.mce_inline_error {
+        color: $secondary;
+      }
+
+    }
+
+  }
 }

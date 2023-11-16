@@ -4,6 +4,8 @@ title: "Crosswords By Maia"
 sidebar: false
 no_header: true
 ---
+{% include email_subscription.html %}
+
 <script src="/assets/javascripts/hide_puzzles.js"></script>
 Here's where I post my crossword puzzles. Have a solve and enjoy!
 
