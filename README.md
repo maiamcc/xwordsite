@@ -12,6 +12,7 @@ To preview the site, run `bundle exec jekyll serve` and navigate to `http://loca
 	- [x] favicon
 	- [ ] fonts
 	- [ ] header height at smaller widths
+	- [ ] style Squares embed to match site theme?
 - [ ] responsive nav
 	- NB: currently nav is just hidden on small widths b/c there's nothing interesting elsewhere on the site yet.
 - [ ] subscribable
