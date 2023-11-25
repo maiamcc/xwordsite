@@ -15,5 +15,8 @@ To preview the site, run `bundle exec jekyll serve` and navigate to `http://loca
 - [ ] responsive nav
 	- NB: currently nav is just hidden on small widths b/c there's nothing interesting elsewhere on the site yet.
 - [ ] subscribable
-	- [ ] mailing list signup form
+	- [x] mailing list signup form
 	- [ ] instead of a data yml, make each crossword a "post" so that they can be RSS'd, tagged etc.
+	- [ ] link to RSS feed
+- [ ] make it shiny
+	- [ ] tag puzzles, have tag indexes etc.

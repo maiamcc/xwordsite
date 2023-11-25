@@ -12,7 +12,8 @@ Here's where I post my crossword puzzles. Have a solve and enjoy!
 {% assign puzzles = site.data.crosswords | where: 'dont_index', empty %}
 
 <div class="puzzle-container">
-    {% for puzzle in site.posts %}
+    {% assign index = true %}
+    {% for puzzle in paginator.posts %}
         <div class="puzzle">
             <h3 class="title">
                 <a href="{{puzzle.url}}">{{ puzzle.title }}</a>
@@ -37,6 +38,15 @@ Here's where I post my crossword puzzles. Have a solve and enjoy!
         </div>
     {% endfor %}
 </div>
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="/{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    <a href="/archives">Puzzle Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="/{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
 
 <!-- to hide puzzles:
 <div class="puzzle{% if puzzle.hide %} hidden{% endif %}">
