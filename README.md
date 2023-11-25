@@ -12,9 +12,10 @@ To preview the site, run `bundle exec jekyll serve` and navigate to `http://loca
 	- [x] favicon
 	- [ ] fonts
 	- [ ] header height at smaller widths
-	- [ ] style Squares embed to match site theme?
+	- [ ] style Squares embed to match site theme? (see: https://stackoverflow.com/questions/217776/how-to-apply-css-to-iframe)
 - [ ] responsive nav
 	- NB: currently nav is just hidden on small widths b/c there's nothing interesting elsewhere on the site yet.
+- [ ] clean-up: make sure puzzles are actually ordered by date
 - [ ] subscribable
 	- [x] mailing list signup form
 	- [x] instead of a data yml, make each crossword a "post" so that they can be RSS'd, tagged etc.

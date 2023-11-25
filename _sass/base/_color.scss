@@ -19,7 +19,7 @@ $color-gray05: #fff !default;
 // Main Link Colors
 $link-color: $primary;
 $link-color-hover: $secondary;
-$link-color-visited: darken($link-color, 15);
+$link-color-visited: darken($link-color, 5);
 $link-color-active: adjust-color($link-color-hover, $lightness: 15);
 
 // Main Section Colors
