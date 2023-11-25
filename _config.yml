@@ -36,7 +36,7 @@ plugins:
 
 
 # Blog settings
-permalink: /:year/:month/:day/:title.html
+permalink: /:title.html
 paginate: 10          # Posts per page on the blog index
 paginate_path: "/:num"  # Directory base for pagination URLs eg. /posts/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
@@ -48,13 +48,14 @@ paginate_categories: 5
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 
+# Removed Nov. 2023, I don't use this anymore (puzzles are now "posts")
 # data_page_generator plugin by Adolfo Villafiorita
-page_gen:
-  - index_files: false
-    data: crosswords
-    template: crossword
-    name: slug
-    extension: html
+# page_gen:
+#   - index_files: false
+#     data: crosswords
+#     template: crossword
+#     name: slug
+#     extension: html
 
 # Github repositories
 github_user: maiamcc

@@ -12,13 +12,13 @@ Here's where I post my crossword puzzles. Have a solve and enjoy!
 {% assign puzzles = site.data.crosswords | where: 'dont_index', empty %}
 
 <div class="puzzle-container">
-    {% for puzzle in puzzles %}
+    {% for puzzle in site.posts %}
         <div class="puzzle">
             <h3 class="title">
-                <a href="/crosswords/{{puzzle.slug}}.html">{{ puzzle.title }}</a>
+                <a href="{{puzzle.url}}">{{ puzzle.title }}</a>
             </h3>
 
-            <div class="info completed"><em>Completed</em>: {{ puzzle.date }}</div>
+            <div class="info completed"><em>Completed</em>: {{ puzzle.date | date: "%b %Y"}}</div>
             <div class="info notes"><em>Constructor notes</em>: {{ puzzle.notes }}</div>
             {% if puzzle.dimensions %}
                 <div class="info dimensions"><em>Dimensions</em>: {{ puzzle.dimensions }}</div>
