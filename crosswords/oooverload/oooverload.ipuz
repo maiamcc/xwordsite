@@ -1,0 +1,520 @@
+{
+  "copyright": "© 2024",
+  "solution": [
+    [
+      "I",
+      "G",
+      "U",
+      "A",
+      "N",
+      "A",
+      "S",
+      "#",
+      "B",
+      "C",
+      "C",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "P",
+      "R",
+      "I",
+      "N",
+      "T",
+      "#",
+      "O",
+      "H",
+      "O",
+      "K"
+    ],
+    [
+      "O",
+      "L",
+      "E",
+      "O",
+      "L",
+      "E",
+      "O",
+      "#",
+      "D",
+      "E",
+      "M",
+      "I"
+    ],
+    [
+      "N",
+      "D",
+      "S",
+      "#",
+      "#",
+      "W",
+      "N",
+      "W",
+      "#",
+      "K",
+      "E",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "C",
+      "O",
+      "W",
+      "#",
+      "E",
+      "I",
+      "G",
+      "H",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "N",
+      "A",
+      "N",
+      "O",
+      "W",
+      "R",
+      "I",
+      "M",
+      "O",
+      "O",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "L",
+      "E",
+      "R",
+      "O",
+      "#",
+      "G",
+      "O",
+      "V",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "H",
+      "A",
+      "#",
+      "M",
+      "U",
+      "M",
+      "#",
+      "#",
+      "S",
+      "N",
+      "L"
+    ],
+    [
+      "T",
+      "O",
+      "T",
+      "E",
+      "#",
+      "L",
+      "E",
+      "T",
+      "S",
+      "G",
+      "O",
+      "O"
+    ],
+    [
+      "E",
+      "M",
+      "O",
+      "S",
+      "#",
+      "D",
+      "E",
+      "V",
+      "O",
+      "U",
+      "R",
+      "S"
+    ],
+    [
+      "S",
+      "O",
+      "R",
+      "T",
+      "#",
+      "I",
+      "T",
+      "S",
+      "O",
+      "N",
+      "M",
+      "E"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick & KT Kotlin",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      "#",
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      13,
+      0,
+      0,
+      0
+    ],
+    [
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      16,
+      0,
+      0,
+      "#",
+      "#",
+      17,
+      0,
+      18,
+      "#",
+      19,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      20,
+      21,
+      22,
+      "#",
+      23,
+      0,
+      24,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      25,
+      0,
+      0,
+      0,
+      26,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#"
+    ],
+    [
+      27,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      28,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      29,
+      0,
+      0,
+      "#",
+      30,
+      0,
+      31,
+      "#",
+      "#",
+      32,
+      33,
+      34
+    ],
+    [
+      35,
+      0,
+      0,
+      36,
+      "#",
+      37,
+      0,
+      38,
+      39,
+      0,
+      0,
+      0
+    ],
+    [
+      40,
+      0,
+      0,
+      0,
+      "#",
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      42,
+      0,
+      0,
+      0,
+      "#",
+      43,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "Oooverload",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 12,
+    "height": 11
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Substance for a ferrous wheel"
+      ],
+      [
+        2,
+        "Fix, as a horse"
+      ],
+      [
+        3,
+        "A bad thing to run down?"
+      ],
+      [
+        4,
+        "Not looking for love, say"
+      ],
+      [
+        5,
+        "Zip"
+      ],
+      [
+        6,
+        "Once again"
+      ],
+      [
+        7,
+        "Leaf devotee"
+      ],
+      [
+        8,
+        "Dad ___"
+      ],
+      [
+        9,
+        "Impressive bicep on a Russian playwright?"
+      ],
+      [
+        10,
+        "Arrive at, as a conclusion"
+      ],
+      [
+        11,
+        "Shirts opponents"
+      ],
+      [
+        18,
+        "Actress Kristen who was a cast member on 32-Across"
+      ],
+      [
+        21,
+        "Anagram of The Matrix's protagonist's name (spoilers!)"
+      ],
+      [
+        22,
+        "\"Oh ___?\" (\"Really?\" for the chronically online)"
+      ],
+      [
+        24,
+        "Most any bit of produce we consume, tbh"
+      ],
+      [
+        25,
+        "What two bros chillin' in a hot tub (five feet apart) might say to each other"
+      ],
+      [
+        26,
+        "Rhetorical question meaning \"heck yes!\""
+      ],
+      [
+        27,
+        "Lewiston, ME school"
+      ],
+      [
+        31,
+        "Cute antecedent"
+      ],
+      [
+        33,
+        "Painter Rockwell, familiarly, maybe"
+      ],
+      [
+        34,
+        "Shake off, as a pursuer"
+      ],
+      [
+        36,
+        "Foundational letters?"
+      ],
+      [
+        38,
+        "Appliances from LG, Samsung, et al."
+      ],
+      [
+        39,
+        "Phillipa who took a break from Camelot to do Ham4Ham"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "Reptiles known as \"chickens of the tree\" in parts of South America"
+      ],
+      [
+        8,
+        "Secretly loops in via Outlook"
+      ],
+      [
+        12,
+        "Issue, again?"
+      ],
+      [
+        13,
+        "\"Ah, gotcha.\""
+      ],
+      [
+        14,
+        "Fútbol chant for the lactose intolerant?"
+      ],
+      [
+        15,
+        "Sexual lead-in?"
+      ],
+      [
+        16,
+        "Autists, ADHDers, and others"
+      ],
+      [
+        17,
+        "The start of 14-Across, relative to here"
+      ],
+      [
+        19,
+        "\"He's just ___\""
+      ],
+      [
+        20,
+        "Participant in 25-Across, maybe"
+      ],
+      [
+        23,
+        "\"Crazy ___\""
+      ],
+      [
+        25,
+        "November challenge for novelist bovines?"
+      ],
+      [
+        27,
+        "Spanish dance (or notoriously repetitive Ravel work)"
+      ],
+      [
+        28,
+        "Dot follower, sometimes"
+      ],
+      [
+        29,
+        "Band behind \"Take On Me\""
+      ],
+      [
+        30,
+        "The word?"
+      ],
+      [
+        32,
+        "See 18-Down"
+      ],
+      [
+        35,
+        "Carry stuff, or something to carry your stuff in"
+      ],
+      [
+        37,
+        "What slime girls say when they're embarking on an adventure?"
+      ],
+      [
+        40,
+        "Some angsty teens c. 2010"
+      ],
+      [
+        41,
+        "Consumes voraciously"
+      ],
+      [
+        42,
+        "Word following quick, bubble, or merge (in Computer Science)"
+      ],
+      [
+        43,
+        "\"My treat!\""
+      ]
+    ]
+  }
+}

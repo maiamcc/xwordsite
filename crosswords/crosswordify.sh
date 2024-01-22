@@ -8,9 +8,9 @@ set -ex
 # - squares.io api key in env as SQUARES_IO_API_KEY
 #   - see docs: https://gist.github.com/dnr/4550a25c08a084965b755c5cfb0e9f26
 # - kpuz script in path
-#   - https://github.com/kberg/kpuz/ and symlink xfer.py -> kpuz
+#   - https://github.com/kberg/kpuz/, `pip install -r requirements.txt`, and symlink xfer.py -> kpuz
 # - puz_to_pdf script in path
-#   - https://github.com/maiamcc/puz_to_pdf and symlink main.js -> puz_to_pdf
+#   - https://github.com/maiamcc/puz_to_pdf, `yarn install`, and symlink main.js -> puz_to_pdf
 
 # 1. convert .ipuz -> .puz
 IPUZ=$1
