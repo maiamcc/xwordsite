@@ -127,6 +127,7 @@ html {
   margin-left: 2em;
   margin-right: auto;
   @media screen and (max-width: 750px) {
+    margin-left: auto;
     float: none;
   }
 
