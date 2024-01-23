@@ -7,3 +7,4 @@ notes: Memetastic joint construction with KT Kotlin. God bless the Pomodoro meth
 date: Jan. 2024
 squares_io_id: mtjekv9y2swckze53bob
 ---
+[{{ page.dimensions }}] {{ page.notes }}

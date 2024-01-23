@@ -8,3 +8,4 @@ notes: In the spirit of the season, here's some nonsense that I pulled out of my
 date: December 2021
 squares_io_id: cks5h3uf3bkcynd38frn
 ---
+[{{ page.dimensions }}] {{ page.notes }}

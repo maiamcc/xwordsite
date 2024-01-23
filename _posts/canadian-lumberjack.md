@@ -7,3 +7,4 @@ notes: A bribe for a friend.
 date: March 2023
 squares_io_id: ahqbz5bqscfh3regua6m
 ---
+[{{ page.dimensions }}] {{ page.notes }}

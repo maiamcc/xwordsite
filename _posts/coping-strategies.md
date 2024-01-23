@@ -7,3 +7,4 @@ notes: My first midi puzzle, inspired by, well, quarantine.
 date: Mar. 2021
 squares_io_id: vk7avsbdanmsvzwcqxjf
 ---
+[{{ page.dimensions }}] {{ page.notes }}
