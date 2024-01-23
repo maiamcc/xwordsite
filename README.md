@@ -20,6 +20,6 @@ To preview the site, run `bundle exec jekyll serve` and navigate to `http://loca
 	- [x] mailing list signup form
 	- [x] instead of a data yml, make each crossword a "post" so that they can be RSS'd, tagged etc.
 	- [ ] link to RSS feed
-	- [ ] posts automatically get description set as "content" in rss feed (instead of manually having to put a body in the post)
+	- [x] posts automatically get description set as "content" in rss feed (instead of manually having to put a body in the post)
 - [ ] make it shiny
 	- [ ] tag puzzles, have tag indexes etc.

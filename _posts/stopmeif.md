@@ -8,4 +8,3 @@ notes: Maybe my first halfway-decent puzzle? (Somewhat more decent after a revis
 date: Feb. 2020 (revised Sept. 2020)
 squares_io_id: ojbmvqhu8va6bk96t2en
 ---
-[{{ page.dimensions }}] {{ page.notes }}

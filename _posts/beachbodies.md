@@ -7,4 +7,3 @@ notes: Happy summer! What better way to celebrate than with a completely irrever
 date: July 2021
 squares_io_id: hs25dz87y8owjd4wc3vu
 ---
-[{{ page.dimensions }}] {{ page.notes }}

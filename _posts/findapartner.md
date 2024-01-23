@@ -8,4 +8,3 @@ notes: My very first completed crossword, and a very niche one at that. <strong>
 date: Nov. 2019
 squares_io_id: grhco296rw42dncpdo3q
 ---
-[{{ page.dimensions }}] {{ page.notes }}

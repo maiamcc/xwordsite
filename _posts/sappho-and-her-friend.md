@@ -7,4 +7,3 @@ notes: Yet more bribes, but make them sapphic.
 date: May 2023
 squares_io_id: czszknqe3ay5y48998zu
 ---
-[{{ page.dimensions }}] {{ page.notes }}
