@@ -57,6 +57,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 #     name: slug
 #     extension: html
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      sidebar: false  # disable sidebar by default so I don't need to set this on every puzzle
+
 # Twitter
 twitter_user:
 twitter_tweet_button: false
