@@ -1,0 +1,400 @@
+{
+  "copyright": "© Maia McCormick, 2024",
+  "solution": [
+    [
+      "O",
+      "F",
+      "F",
+      "#",
+      "S",
+      "H",
+      "A",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "N",
+      "E",
+      "O",
+      "#",
+      "T",
+      "O",
+      "B",
+      "O",
+      "O",
+      "T"
+    ],
+    [
+      "F",
+      "U",
+      "C",
+      "K",
+      "A",
+      "R",
+      "O",
+      "U",
+      "N",
+      "D"
+    ],
+    [
+      "I",
+      "D",
+      "S",
+      "A",
+      "Y",
+      "S",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "L",
+      "A",
+      "C",
+      "E",
+      "#",
+      "F",
+      "T",
+      "M"
+    ],
+    [
+      "E",
+      "D",
+      "E",
+      "#",
+      "A",
+      "S",
+      "S",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "T",
+      "E",
+      "A",
+      "T",
+      "O",
+      "N"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "F",
+      "I",
+      "N",
+      "D",
+      "O",
+      "U",
+      "T"
+    ],
+    [
+      "T",
+      "A",
+      "U",
+      "R",
+      "O",
+      "S",
+      "#",
+      "N",
+      "P",
+      "H"
+    ],
+    [
+      "T",
+      "H",
+      "E",
+      "O",
+      "N",
+      "E",
+      "#",
+      "S",
+      "E",
+      "E"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      "#",
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      0,
+      0,
+      "#",
+      11,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      12,
+      0,
+      0,
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      16,
+      17,
+      18
+    ],
+    [
+      19,
+      0,
+      0,
+      "#",
+      20,
+      0,
+      21,
+      0,
+      0,
+      0
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      22,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      23,
+      24,
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      26,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      27,
+      0,
+      0
+    ],
+    [
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      29,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "You Reap What You Sow",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 10,
+    "height": 10
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "Like the pantaloons of a perjurer, perhaps"
+      ],
+      [
+        2,
+        "Made like the Montagues and the Capulets"
+      ],
+      [
+        3,
+        "Forecastle, familiarly (ship part)"
+      ],
+      [
+        4,
+        "Getaway alternative"
+      ],
+      [
+        5,
+        "ESP if the \"E\" stood for \"equid\""
+      ],
+      [
+        6,
+        "\"Peek-___!\""
+      ],
+      [
+        7,
+        "KStew role in \"Love Lies Bleeding\""
+      ],
+      [
+        8,
+        "Age"
+      ],
+      [
+        9,
+        "Crabs, e.g."
+      ],
+      [
+        13,
+        "Hypnotic Kipling snake"
+      ],
+      [
+        16,
+        "Crash pads?"
+      ],
+      [
+        17,
+        "The Muppets, for one"
+      ],
+      [
+        18,
+        "Last word in liqueur?"
+      ],
+      [
+        21,
+        "Aptly abbreviated winter affliction"
+      ],
+      [
+        22,
+        "\"Pick me!\" hairstyle?"
+      ],
+      [
+        23,
+        "ABA member"
+      ],
+      [
+        24,
+        "\"___ bro\""
+      ],
+      [
+        25,
+        "Owed"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "Spoiled"
+      ],
+      [
+        4,
+        "Some sedimentary stones"
+      ],
+      [
+        10,
+        "Unfortunately, he provided a beloved metaphor to a bunch of incels and weirdos"
+      ],
+      [
+        11,
+        "Also"
+      ],
+      [
+        12,
+        "With 23-Across, you reap what you sow"
+      ],
+      [
+        14,
+        "\"And how!\""
+      ],
+      [
+        15,
+        "Do up again (as skates)"
+      ],
+      [
+        16,
+        "One getting a metoidioplasty, perhaps (in dated lingo)"
+      ],
+      [
+        19,
+        "Palindromic city in Holland (also a town in Nigeria)"
+      ],
+      [
+        20,
+        "Allay fears"
+      ],
+      [
+        22,
+        "Overdid it at the buffet, say"
+      ],
+      [
+        23,
+        "See 12-Across"
+      ],
+      [
+        26,
+        "Bullish Pokémon"
+      ],
+      [
+        27,
+        "Star of Dr. Horrible's Sing-Along Blog and Series of Unfortunate Events, in brief"
+      ],
+      [
+        28,
+        "Name for 10-Across"
+      ],
+      [
+        29,
+        "Not fold or raise"
+      ]
+    ]
+  }
+}
