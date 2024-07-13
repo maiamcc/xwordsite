@@ -1,0 +1,24 @@
+<div class="puzzle">
+    <h3 class="title">
+        <a href="{{puzzle.url}}">{{ puzzle.title }}</a>{% if puzzle.external_link %} [Published Externally]{% endif %}
+    </h3>
+
+    <div class="info completed"><em>Completed</em>: {{ puzzle.date | date: "%b %Y"}}</div>
+    <div class="info notes"><em>Constructor notes</em>: {{ puzzle.notes }}{% if puzzle.external_link %} <em>(This link will take you to the publisher's site.)</em>{% endif %}</div>
+    {% if puzzle.dimensions %}
+        <div class="info dimensions"><em>Dimensions</em>: {{ puzzle.dimensions }}</div>
+    {% endif %}
+    <!--
+    {% if puzzle.day_of_week %}
+        <div class="info difficulty"><em>Approx. difficulty</em>: NYT {{ puzzle.day_of_week }}</div>
+    {% endif %}
+    -->
+    {% if puzzle.external_link == blank %}
+    <div class="info files"><em>Files</em>:
+        <a href="/crosswords/{{puzzle.slug}}/{{puzzle.slug}}.pdf">PDF</a> |
+        <a href="/crosswords/{{puzzle.slug}}/{{puzzle.slug}}.puz" download>PUZ</a> |
+        <a href="/crosswords/{{puzzle.slug}}/{{puzzle.slug}}.ipuz" download>IPUZ</a> |
+        <a href="/crosswords/{{puzzle.slug}}/{{puzzle.slug}}-solution.pdf">solution</a>
+    </div>
+    {% endif %}
+</div>

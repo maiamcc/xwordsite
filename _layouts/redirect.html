@@ -1,0 +1,15 @@
+ <!-- Taken from: https://stackoverflow.com/a/58850736 -->
+ <html>
+ <head>
+     <meta charset="utf-8"/>
+     <meta http-equiv="refresh" content="1;url={{ page.page.external_link }}"/>
+     <link rel="canonical" href="{{ page.page.external_link }}"/>
+     <script type="text/javascript">
+             window.location.href = "{{ page.external_link }}"
+     </script>
+     <title>Page Redirection</title>
+ </head>
+ <body>
+    This content is hosted externally. If you are not redirected automatically, please follow <a href='{{ page.external_link }}'>this link</a>.
+ </body>
+ </html>
