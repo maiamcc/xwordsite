@@ -1,0 +1,486 @@
+{
+  "copyright": "© Maia McCormick 2025",
+  "solution": [
+    [
+      "R",
+      "S",
+      "D",
+      "#",
+      "I",
+      "C",
+      "E",
+      "#",
+      "O",
+      "A",
+      "K"
+    ],
+    [
+      "E",
+      "M",
+      "O",
+      "T",
+      "I",
+      "O",
+      "N",
+      "#",
+      "F",
+      "R",
+      "O"
+    ],
+    [
+      "G",
+      "O",
+      "T",
+      "H",
+      "I",
+      "G",
+      "H",
+      "#",
+      "F",
+      "E",
+      "B"
+    ],
+    [
+      "R",
+      "O",
+      "S",
+      "E",
+      "#",
+      "#",
+      "A",
+      "N",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "E",
+      "S",
+      "P",
+      "#",
+      "T",
+      "O",
+      "N",
+      "I",
+      "C",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "H",
+      "E",
+      "M",
+      "U",
+      "N",
+      "C",
+      "H",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "E",
+      "N",
+      "E",
+      "E",
+      "#",
+      "A",
+      "D",
+      "P"
+    ],
+    [
+      "A",
+      "K",
+      "I",
+      "T",
+      "A",
+      "#",
+      "#",
+      "O",
+      "L",
+      "G",
+      "A"
+    ],
+    [
+      "G",
+      "E",
+      "N",
+      "#",
+      "B",
+      "L",
+      "A",
+      "Z",
+      "E",
+      "I",
+      "T"
+    ],
+    [
+      "U",
+      "N",
+      "C",
+      "#",
+      "L",
+      "E",
+      "T",
+      "S",
+      "S",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "H",
+      "#",
+      "E",
+      "D",
+      "M",
+      "#",
+      "E",
+      "R",
+      "S"
+    ]
+  ],
+  "kind": ["http://ipuz.org/crossword#1"],
+  "author": "Maia McCormick",
+  "puzzle": [
+    [
+      1,
+      2,
+      3,
+      "#",
+      4,
+      5,
+      6,
+      "#",
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      0,
+      0,
+      11,
+      0,
+      0,
+      0,
+      "#",
+      12,
+      0,
+      0
+    ],
+    [
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      14,
+      0,
+      0
+    ],
+    [
+      15,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      16,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      0,
+      0,
+      "#",
+      19,
+      20,
+      0,
+      0,
+      0,
+      "#",
+      "#"
+    ],
+    [
+      21,
+      0,
+      0,
+      22,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      24
+    ],
+    [
+      "#",
+      "#",
+      25,
+      0,
+      0,
+      0,
+      0,
+      "#",
+      26,
+      0,
+      0
+    ],
+    [
+      27,
+      28,
+      0,
+      0,
+      0,
+      "#",
+      "#",
+      29,
+      0,
+      0,
+      0
+    ],
+    [
+      30,
+      0,
+      0,
+      "#",
+      31,
+      32,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      34,
+      0,
+      0,
+      "#",
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      36,
+      0,
+      0,
+      "#",
+      37,
+      0,
+      0,
+      "#",
+      38,
+      0,
+      0
+    ]
+  ],
+  "origin": "CrossFire encoder v1",
+  "block": "#",
+  "title": "It's 4:20 Somewhere",
+  "version": "http://ipuz.org/v2",
+  "empty": "0",
+  "dimensions": {
+    "width": 11,
+    "height": 11
+  },
+  "clues": {
+    "Down": [
+      [
+        1,
+        "What you might feel after getting a tattoo with a typo in it"
+      ],
+      [
+        2,
+        "Mash (together), as if to say \"now kiss!\""
+      ],
+      [
+        3,
+        "Resolution"
+      ],
+      [
+        4,
+        "IV precursor"
+      ],
+      [
+        5,
+        "Capitalist laborer, metaphorically"
+      ],
+      [
+        6,
+        "Directive that might be spoken to a computer"
+      ],
+      [
+        7,
+        "Beaurocratic language, informally"
+      ],
+      [
+        8,
+        "Roman god of war"
+      ],
+      [
+        9,
+        "Beef or Bryant"
+      ],
+      [
+        11,
+        "Genuine article"
+      ],
+      [
+        17,
+        "Medical research org."
+      ],
+      [
+        19,
+        "Like a piano but not like a fish"
+      ],
+      [
+        20,
+        "Lonliest number, it's said"
+      ],
+      [
+        22,
+        "Mrs. __ (mascot that the internet got inexplicably horny for)"
+      ],
+      [
+        23,
+        "Punks vis a vis preps"
+      ],
+      [
+        24,
+        "Bursts"
+      ],
+      [
+        27,
+        "H2O in Honduras"
+      ],
+      [
+        28,
+        "Beach combatants in Barbie (2023)"
+      ],
+      [
+        29,
+        "The Munchkins' land and Dr. Mehmet, for two"
+      ],
+      [
+        32,
+        "Was up in points"
+      ],
+      [
+        33,
+        "Dough dispenser"
+      ]
+    ],
+    "Across": [
+      [
+        1,
+        "Common ADHD tagalong"
+      ],
+      [
+        4,
+        "Off"
+      ],
+      [
+        7,
+        "Sturdy tree"
+      ],
+      [
+        10,
+        "Anger but not bargaining"
+      ],
+      [
+        12,
+        "To's partner"
+      ],
+      [
+        13,
+        "What I did right before I started this puzzle, which is why some of the entries might be kinda weird"
+      ],
+      [
+        14,
+        "Amethyst mo."
+      ],
+      [
+        15,
+        "Compass follower?"
+      ],
+      [
+        16,
+        "Star-shaped spice"
+      ],
+      [
+        18,
+        "Ability that Karen from Mean Girls definitely doesn't have"
+      ],
+      [
+        19,
+        "Dominant's counterpart"
+      ],
+      [
+        21,
+        "My current affliction due to 13-Across"
+      ],
+      [
+        25,
+        "Tony-winner Elise Goldsberry"
+      ],
+      [
+        26,
+        "Compound involved in creating cellular energy (or a godawful HR/Payroll company)"
+      ],
+      [
+        27,
+        "\"This __, Evita, just won't shut up\""
+      ],
+      [
+        29,
+        "Abuela Claudia portrayer Merediz"
+      ],
+      [
+        30,
+        "Lead-in to X, Y or Z"
+      ],
+      [
+        31,
+        "What I yelled before I did 13-Across (not really)"
+      ],
+      [
+        34,
+        "Chapel Hill sch."
+      ],
+      [
+        35,
+        "Words said while poring over documents"
+      ],
+      [
+        36,
+        "Companion to Brock and Misty"
+      ],
+      [
+        37,
+        "Rave genre"
+      ],
+      [
+        38,
+        "Some speech fillers"
+      ]
+    ]
+  }
+}

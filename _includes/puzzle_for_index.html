@@ -1,4 +1,4 @@
-<div class="puzzle">
+<div class="puzzle{% if puzzle.hide %} hidden{% endif %}">
     <h3 class="title">
         <a href="{{puzzle.url}}">{{ puzzle.title }}</a>{% if puzzle.external_link %} [Published Externally]{% endif %}
     </h3>
