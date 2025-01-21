@@ -16,6 +16,7 @@ layout: null
   <generator uri="http://octopress.org/">Octopress</generator>
 
   {% for post in site.posts limit: 20 %}
+  {% if post.hide == nil %}
   <entry>
     <title type="html"><![CDATA[{% if site.titlecase %}{{ post.title | titlecase | cdata_escape }}{% else %}{{ post.title | cdata_escape }}{% endif %}]]></title>
     <link href="{{ site.url }}{{ post.url }}"/>
@@ -24,5 +25,6 @@ layout: null
     <summary>[{{ post.dimensions }}] {{ post.notes | strip_html }}</summary>
     <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content>
   </entry>
+  {% endif %}
   {% endfor %}
 </feed>
